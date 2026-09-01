@@ -1,0 +1,2067 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ClayNest</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Google Font - Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+     HEADER
+========================= -->
+
+    <header class="site-header" id="siteHeader">
+        <div class="container header-container">
+
+            <!-- Logo -->
+            <a href="index.html" class="site-logo" aria-label="ClayNest Home">
+                <img src="images/logo.png" alt="ClayNest">
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <nav class="main-navigation" id="mainNavigation" aria-label="Main Navigation">
+
+                <ul class="nav-menu">
+
+                    <!-- Home Dropdown -->
+                    <li class="nav-item has-dropdown">
+
+                        <button class="nav-link dropdown-toggle" type="button" aria-expanded="false">
+                            Home
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="index.html">Home 1</a>
+                            </li>
+
+                            <li>
+                                <a href="home-2.html">Home 2</a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+
+
+                    <!-- Products -->
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">Products</a>
+                    </li>
+
+
+                    <!-- Materials -->
+                    <li class="nav-item">
+                        <a href="materials.html" class="nav-link">Materials Guide</a>
+                    </li>
+
+                    <!-- Gift Sets -->
+                    <li class="nav-item">
+                        <a href="gift-sets.html" class="nav-link">Gift Sets</a>
+                    </li>
+
+
+                    <!-- Bulk Orders -->
+                    <li class="nav-item">
+                        <a href="bulk-orders.html" class="nav-link">Bulk Orders</a>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+
+                </ul>
+
+
+                <!-- Mobile / Menu Actions -->
+                <div class="mobile-menu-actions">
+
+                    <!-- Dark Mode -->
+                    <button class="header-action" id="themeToggle" type="button" aria-label="Toggle dark mode">
+
+                        <span class="action-icon">
+                            <i class="fa-solid fa-moon"></i>
+                        </span>
+
+                        <span class="action-text">Dark Mode</span>
+
+                    </button>
+
+
+                    <!-- RTL -->
+                    <button class="header-action" id="rtlToggle" type="button" aria-label="Toggle RTL direction">
+
+                        <span class="action-icon">
+                            <i class="fa-solid fa-right-left"></i>
+                        </span>
+
+                        <span class="action-text">RTL Mode</span>
+
+                    </button>
+
+
+                    <!-- Login -->
+                    <a href="login.html" class="header-login">
+                        <span>Login</span>
+                    </a>
+
+                </div>
+
+            </nav>
+
+
+            <!-- Desktop Actions -->
+            <div class="header-actions">
+
+                <!-- Dark Mode -->
+                <button class="desktop-action" id="desktopThemeToggle" type="button" aria-label="Toggle dark mode">
+
+                    <i class="fa-solid fa-moon"></i>
+
+                </button>
+
+
+                <!-- RTL -->
+                <button class="desktop-action" id="desktopRtlToggle" type="button" aria-label="Toggle RTL direction">
+
+                    <i class="fa-solid fa-right-left"></i>
+
+                </button>
+
+
+                <!-- Login -->
+                <a href="login.html" class="header-login">
+                    <span>Login</span>
+                </a>
+
+            </div>
+
+
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false"
+                aria-controls="mainNavigation">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- =========================
+     PAGE HERO
+========================= -->
+
+    <section class="page-hero products-banner">
+
+        <div class="page-hero-overlay">
+
+            <div class="container page-hero-container">
+
+                <h1 class="page-hero-title">
+                    Kitchen Essentials
+                </h1>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================================
+     PRODUCT CATALOG
+========================================================= -->
+
+    <section class="product-catalog-section">
+
+        <div class="container">
+
+
+            <!-- =================================================
+             FILTER HEADER
+        ================================================== -->
+
+            <div class="product-explorer-header">
+
+                <div>
+
+                    <span class="explorer-label">
+                        Explore the collection
+                    </span>
+
+                    <h2>
+                        Find what fits
+                        your kitchen.
+                    </h2>
+
+                </div>
+
+
+                <p>
+                    Refine your search by category, material,
+                    size, price, and availability.
+                </p>
+
+            </div>
+
+
+            <!-- =================================================
+             FILTER PANEL
+        ================================================== -->
+
+            <div class="product-filter-panel">
+
+
+                <!-- Product Intent -->
+
+                <div class="filter-intent">
+
+                    <div class="filter-heading">
+
+                        <span>01</span>
+
+                        <h3>
+                            What are you looking for?
+                        </h3>
+
+                    </div>
+
+                    <div class="intent-options">
+
+                        <!-- All Products -->
+
+                        <label class="intent-option active">
+
+                            <input type="radio" name="product-type" value="all" checked>
+
+                            <span>
+                                All
+                            </span>
+
+                        </label>
+
+
+                        <!-- Cook -->
+
+                        <label class="intent-option">
+
+                            <input type="radio" name="product-type" value="cookware">
+
+                            <span>
+                                Cook
+                            </span>
+
+                        </label>
+
+
+                        <!-- Bake -->
+
+                        <label class="intent-option">
+
+                            <input type="radio" name="product-type" value="bakeware">
+
+                            <span>
+                                Bake
+                            </span>
+
+                        </label>
+
+
+                        <!-- Store -->
+
+                        <label class="intent-option">
+
+                            <input type="radio" name="product-type" value="storage">
+
+                            <span>
+                                Store
+                            </span>
+
+                        </label>
+
+
+                        <!-- Prep -->
+
+                        <label class="intent-option">
+
+                            <input type="radio" name="product-type" value="tools">
+
+                            <span>
+                                Prep
+                            </span>
+
+                        </label>
+
+
+                        <!-- Dine -->
+
+                        <label class="intent-option">
+
+                            <input type="radio" name="product-type" value="dining">
+
+                            <span>
+                                Dine
+                            </span>
+
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Filter Details -->
+
+                <div class="filter-details">
+
+
+                    <!-- Material -->
+
+                    <div class="filter-group">
+
+                        <div class="filter-heading">
+
+                            <span>02</span>
+
+                            <h3>
+                                Material
+                            </h3>
+
+                        </div>
+
+
+                        <div class="filter-check-list">
+
+                            <label>
+
+                                <input type="checkbox" name="material" value="ceramic">
+
+                                <span>
+                                    Ceramic
+                                </span>
+
+                            </label>
+
+
+                            <label>
+
+                                <input type="checkbox" name="material" value="cast-iron">
+
+                                <span>
+                                    Cast Iron
+                                </span>
+
+                            </label>
+
+
+                            <label>
+
+                                <input type="checkbox" name="material" value="stainless-steel">
+
+                                <span>
+                                    Stainless Steel
+                                </span>
+
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Size -->
+
+                    <div class="filter-group">
+
+                        <div class="filter-heading">
+
+                            <span>03</span>
+
+                            <h3>
+                                Size
+                            </h3>
+
+                        </div>
+
+
+                        <div class="filter-check-list">
+
+                            <label>
+
+                                <input type="checkbox" name="size" value="small">
+
+                                <span>
+                                    Small
+                                </span>
+
+                            </label>
+
+
+                            <label>
+
+                                <input type="checkbox" name="size" value="medium">
+
+                                <span>
+                                    Medium
+                                </span>
+
+                            </label>
+
+
+                            <label>
+
+                                <input type="checkbox" name="size" value="large">
+
+                                <span>
+                                    Large
+                                </span>
+
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Availability -->
+
+                    <div class="filter-group">
+
+                        <div class="filter-heading">
+
+                            <span>04</span>
+
+                            <h3>
+                                Availability
+                            </h3>
+
+                        </div>
+
+
+                        <div class="filter-check-list">
+
+                            <label>
+
+                                <input type="checkbox" name="availability" value="in-stock">
+
+                                <span>
+                                    In Stock
+                                </span>
+
+                            </label>
+
+
+                            <label>
+
+                                <input type="checkbox" name="availability" value="new">
+
+                                <span>
+                                    New Arrivals
+                                </span>
+
+                            </label>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Price -->
+
+                    <div class="filter-group price-filter">
+
+                        <div class="filter-heading">
+
+                            <span>05</span>
+
+                            <h3>
+                                Price Range
+                            </h3>
+
+                        </div>
+
+
+                        <div class="price-values">
+
+                            <span>
+                                ₹1,000
+                            </span>
+
+                            <span>
+                                ₹8,000
+                            </span>
+
+                        </div>
+
+
+                        <div class="price-range">
+
+                            <input type="range" min="1000" max="8000" value="8000" id="price-range">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Filter Footer -->
+
+                <div class="filter-footer">
+
+                    <span class="product-count">
+                        Showing
+                        <strong>21</strong>
+                        products
+                    </span>
+
+
+                    <div class="filter-actions">
+
+                        <button type="button" class="clear-filters">
+                            Clear all
+                        </button>
+
+
+                        <button type="button" class="apply-filters">
+
+                            Apply Filters
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+             PRODUCTS HEADER
+        ================================================== -->
+
+            <div class="products-header">
+
+                <div>
+
+                    <span class="products-label">
+                        Our Collection
+                    </span>
+
+                    <h3>
+                        Kitchen essentials,
+                        thoughtfully made.
+                    </h3>
+
+                </div>
+
+
+                <span class="catalog-count">
+                    21 Products
+                </span>
+
+            </div>
+
+
+            <!-- =================================================
+             PRODUCTS GRID
+        ================================================== -->
+
+            <div class="products-grid">
+
+
+                <!-- 01 -->
+
+                <article class="product-card" data-category="cookware" data-material="ceramic" data-size="medium"
+                    data-price="2499" data-availability="in-stock">
+
+                    <div class="product-image">
+
+                        <img src="images/ceramic-fry-pan.jpg" alt="Classic Ceramic Fry Pan">
+
+                        <span class="product-badge">
+                            Bestseller
+                        </span>
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Cookware
+                        </span>
+
+                        <h3>
+                            Classic Ceramic Fry Pan
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹2,499</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 02 -->
+
+                <article class="product-card" data-category="cookware" data-material="ceramic" data-size="small"
+                    data-price="1999" data-availability="in-stock">
+
+                    <div class="product-image">
+
+                        <img src="images/ceramic-saucepan.jpg" alt="Stoneware Saucepan">
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Cookware
+                        </span>
+
+                        <h3>
+                            Stoneware Saucepan
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹1,999</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 03 -->
+
+                <article class="product-card" data-category="cookware" data-material="cast-iron" data-size="large"
+                    data-price="5999" data-availability="in-stock">
+
+                    <div class="product-image">
+
+                        <img src="images/cast-iron-dutch-oven.jpg" alt="Cast Iron Dutch Oven">
+
+                        <span class="product-badge">
+                            Popular
+                        </span>
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Cookware
+                        </span>
+
+                        <h3>
+                            Cast Iron Dutch Oven
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹5,999</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 04 -->
+
+                <article class="product-card" data-category="cookware" data-material="stainless-steel" data-size="large"
+                    data-price="4499" data-availability="new">
+
+                    <div class="product-image">
+
+                        <img src="images/stainless-steel-pot.jpg" alt="Stainless Steel Cooking Pot">
+
+                        <span class="product-badge">
+                            New
+                        </span>
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Cookware
+                        </span>
+
+                        <h3>
+                            Stainless Steel Cooking Pot
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹4,499</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 05 -->
+
+                <article class="product-card" data-category="cookware" data-material="ceramic" data-size="medium"
+                    data-price="3299" data-availability="in-stock">
+
+                    <div class="product-image">
+
+                        <img src="images/ceramic-casserole.jpg" alt="Everyday Ceramic Casserole">
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Cookware
+                        </span>
+
+                        <h3>
+                            Everyday Ceramic Casserole
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹3,299</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 06 -->
+
+                <article class="product-card" data-category="bakeware" data-material="ceramic" data-size="medium"
+                    data-price="2299" data-availability="new">
+
+                    <div class="product-image">
+
+                        <img src="images/ceramic-baking-dish.jpg" alt="Ceramic Baking Dish">
+
+                        <span class="product-badge">
+                            New
+                        </span>
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Bakeware
+                        </span>
+
+                        <h3>
+                            Ceramic Baking Dish
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹2,299</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 07 -->
+
+                <article class="product-card" data-category="bakeware" data-material="ceramic" data-size="large"
+                    data-price="2799" data-availability="in-stock">
+
+                    <div class="product-image">
+
+                        <img src="images/stoneware-baking-tray.jpg" alt="Stoneware Baking Tray">
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Bakeware
+                        </span>
+
+                        <h3>
+                            Stoneware Baking Tray
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹2,799</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 08 -->
+
+                <article class="product-card" data-category="bakeware" data-material="stainless-steel"
+                    data-size="medium" data-price="1899" data-availability="in-stock">
+
+                    <div class="product-image">
+
+                        <img src="images/stainless-baking-set.jpg" alt="Stainless Steel Baking Set">
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Bakeware
+                        </span>
+
+                        <h3>
+                            Stainless Steel Baking Set
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹1,899</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 09 -->
+
+                <article class="product-card" data-category="bakeware" data-material="ceramic" data-size="small"
+                    data-price="1599" data-availability="in-stock">
+
+                    <div class="product-image">
+
+                        <img src="images/ceramic-ramekin-set.jpg" alt="Ceramic Ramekin Set">
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Bakeware
+                        </span>
+
+                        <h3>
+                            Ceramic Ramekin Set
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹1,599</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 10 -->
+
+                <article class="product-card" data-category="storage" data-material="ceramic" data-size="medium"
+                    data-price="1899" data-availability="in-stock">
+
+                    <div class="product-image">
+
+                        <img src="images/ceramic-storage-set.jpg" alt="Ceramic Storage Set">
+
+                        <span class="product-badge">
+                            Bestseller
+                        </span>
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Storage
+                        </span>
+
+                        <h3>
+                            Ceramic Storage Set
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹1,899</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 11 -->
+
+                <article class="product-card" data-category="storage" data-material="stainless-steel" data-size="medium"
+                    data-price="2499" data-availability="new">
+
+                    <div class="product-image">
+
+                        <img src="images/stainless-storage-set.jpg" alt="Stainless Storage Set">
+
+                        <span class="product-badge">
+                            New
+                        </span>
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Storage
+                        </span>
+
+                        <h3>
+                            Stainless Storage Set
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹2,499</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 12 -->
+
+                <article class="product-card" data-category="storage" data-material="ceramic" data-size="large"
+                    data-price="3299" data-availability="in-stock">
+
+                    <div class="product-image">
+
+                        <img src="images/large-kitchen-canister.jpg" alt="Large Kitchen Canister Set">
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Storage
+                        </span>
+
+                        <h3>
+                            Large Kitchen Canister Set
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹3,299</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 13 -->
+
+                <article class="product-card" data-category="storage" data-material="stainless-steel" data-size="small"
+                    data-price="1299" data-availability="in-stock">
+
+                    <div class="product-image">
+
+                        <img src="images/spice-container-set.jpg" alt="Spice Container Set">
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Storage
+                        </span>
+
+                        <h3>
+                            Spice Container Set
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹1,299</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 14 -->
+
+                <article class="product-card" data-category="tools" data-material="stainless-steel" data-size="medium"
+                    data-price="1599" data-availability="new">
+
+                    <div class="product-image">
+
+                        <img src="images/kitchen-utensil-set.jpg" alt="Everyday Utensil Set">
+
+                        <span class="product-badge">
+                            New
+                        </span>
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Kitchen Tools
+                        </span>
+
+                        <h3>
+                            Everyday Utensil Set
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹1,599</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 15 -->
+
+                <article class="product-card" data-category="tools" data-material="stainless-steel" data-size="small"
+                    data-price="999" data-availability="in-stock">
+
+                    <div class="product-image">
+
+                        <img src="images/chef-knife.jpg" alt="Everyday Chef Knife">
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Kitchen Tools
+                        </span>
+
+                        <h3>
+                            Everyday Chef Knife
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹999</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 16 -->
+
+                <article class="product-card" data-category="tools" data-material="ceramic" data-size="medium"
+                    data-price="1399" data-availability="in-stock">
+
+                    <div class="product-image">
+
+                        <img src="images/ceramic-measuring-set.jpg" alt="Ceramic Measuring Set">
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Kitchen Tools
+                        </span>
+
+                        <h3>
+                            Ceramic Measuring Set
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹1,399</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 17 -->
+
+                <article class="product-card" data-category="tools" data-material="stainless-steel" data-size="large"
+                    data-price="1899" data-availability="in-stock">
+
+                    <div class="product-image">
+
+                        <img src="images/stainless-kitchen-tools.jpg" alt="Stainless Kitchen Tools">
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Kitchen Tools
+                        </span>
+
+                        <h3>
+                            Stainless Kitchen Tools
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹1,899</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 18 -->
+
+                <article class="product-card" data-category="dining" data-material="ceramic" data-size="large"
+                    data-price="4999" data-availability="in-stock">
+
+                    <div class="product-image">
+
+                        <img src="images/everyday-dining-set.jpg" alt="Everyday Ceramic Dining Set">
+
+                        <span class="product-badge">
+                            Bestseller
+                        </span>
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Dining Sets
+                        </span>
+
+                        <h3>
+                            Everyday Ceramic Dining Set
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹4,999</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 19 -->
+
+                <article class="product-card" data-category="dining" data-material="ceramic" data-size="small"
+                    data-price="1299" data-availability="new">
+
+                    <div class="product-image">
+
+                        <img src="images/ceramic-bowl-set.jpg" alt="Minimal Ceramic Bowl Set">
+
+                        <span class="product-badge">
+                            New
+                        </span>
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Dining Sets
+                        </span>
+
+                        <h3>
+                            Minimal Ceramic Bowl Set
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹1,299</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 20 -->
+
+                <article class="product-card" data-category="dining" data-material="ceramic" data-size="medium"
+                    data-price="2899" data-availability="in-stock">
+
+                    <div class="product-image">
+
+                        <img src="images/ceramic-plate-set.jpg" alt="Handcrafted Ceramic Plate Set">
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Dining Sets
+                        </span>
+
+                        <h3>
+                            Handcrafted Plate Set
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹2,899</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- 21 -->
+
+                <article class="product-card" data-category="dining" data-material="ceramic" data-size="large"
+                    data-price="3799" data-availability="in-stock">
+
+                    <div class="product-image">
+
+                        <img src="images/serving-dinner-set.jpg" alt="Ceramic Serving Dinner Set">
+
+                        <button class="product-wishlist" type="button" aria-label="Add to wishlist">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-content">
+
+                        <span class="product-category">
+                            Dining Sets
+                        </span>
+
+                        <h3>
+                            Ceramic Serving Dinner Set
+                        </h3>
+
+                        <div class="product-bottom">
+
+                            <strong>₹3,799</strong>
+
+                            <a href="#">
+                                View Product
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     KITCHEN ESSENTIALS SPOTLIGHT
+     ========================================================= -->
+
+    <section class="kitchen-spotlight">
+
+        <div class="spotlight-container">
+
+            <!-- Image -->
+
+            <div class="spotlight-image">
+
+                <img src="images/kitchen-lifestyle.jpg" alt="Ceramic cookware arranged in a warm kitchen">
+
+            </div>
+
+
+            <!-- Content -->
+
+            <div class="spotlight-content">
+
+                <span class="spotlight-label">
+                    Everyday Essentials
+                </span>
+
+                <h2>
+                    Made for the meals
+                    <em>you make most.</em>
+                </h2>
+
+                <p>
+                    Thoughtfully chosen cookware and kitchen pieces
+                    designed to make everyday cooking feel simpler,
+                    warmer, and more enjoyable.
+                </p>
+
+
+                <!-- Highlights -->
+
+                <div class="spotlight-highlights">
+
+                    <div class="spotlight-highlight">
+
+                        <span class="highlight-icon">
+                            <i class="fa-solid fa-shield-heart"></i>
+                        </span>
+
+                        <div>
+                            <h3>
+                                Built to Last
+                            </h3>
+
+                            <p>
+                                Reliable pieces for everyday use.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="spotlight-highlight">
+
+                        <span class="highlight-icon">
+                            <i class="fa-solid fa-droplet"></i>
+                        </span>
+
+                        <div>
+                            <h3>
+                                Easy to Care
+                            </h3>
+
+                            <p>
+                                Simple care for effortless cooking.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="spotlight-highlight">
+
+                        <span class="highlight-icon">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        </span>
+
+                        <div>
+                            <h3>
+                                Thoughtful Design
+                            </h3>
+
+                            <p>
+                                Made to look beautiful on your counter.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <a href="materials-guide.html" class="spotlight-button">
+
+                    Explore Materials
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     MATERIAL PICKS
+     ========================================================= -->
+
+    <section class="material-picks">
+
+        <div class="material-picks-container">
+
+            <div class="material-picks-heading">
+
+                <span>
+                    MATERIALS WE LOVE
+                </span>
+
+                <h2>
+                    Choose what suits
+                    <em>your kitchen.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="material-picks-grid">
+
+                <!-- Ceramic -->
+
+                <a href="materials-guide.html" class="material-pick-card">
+
+                    <img src="images/ceramic-material.jpg" alt="Ceramic cookware">
+
+                    <div class="material-pick-overlay">
+
+                        <div>
+
+                            <small>
+                                01
+                            </small>
+
+                            <h3>
+                                Ceramic
+                            </h3>
+
+                            <p>
+                                Smooth, light and easy
+                                for everyday cooking.
+                            </p>
+
+                        </div>
+
+                        <span class="material-pick-arrow">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- Cast Iron -->
+
+                <a href="materials-guide.html" class="material-pick-card">
+
+                    <img src="images/cast-iron-material.jpg" alt="Cast iron cookware">
+
+                    <div class="material-pick-overlay">
+
+                        <div>
+
+                            <small>
+                                02
+                            </small>
+
+                            <h3>
+                                Cast Iron
+                            </h3>
+
+                            <p>
+                                Strong heat retention for
+                                slow and hearty cooking.
+                            </p>
+
+                        </div>
+
+                        <span class="material-pick-arrow">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- Stainless Steel -->
+
+                <a href="materials-guide.html" class="material-pick-card">
+
+                    <img src="images/stainless-material.jpg" alt="Stainless steel cookware">
+
+                    <div class="material-pick-overlay">
+
+                        <div>
+
+                            <small>
+                                03
+                            </small>
+
+                            <h3>
+                                Stainless Steel
+                            </h3>
+
+                            <p>
+                                Versatile, durable and ready
+                                for everyday kitchen tasks.
+                            </p>
+
+                        </div>
+
+                        <span class="material-pick-arrow">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     PRODUCTS CTA
+     ========================================================= -->
+
+    <section class="products-cta">
+
+        <div class="products-cta-content">
+
+            <span class="products-cta-label">
+                MADE FOR YOUR KITCHEN
+            </span>
+
+            <h2>
+                Cook something
+                <em>worth gathering for.</em>
+            </h2>
+
+            <p>
+                Discover thoughtfully designed kitchen essentials
+                made for everyday meals, slow Sundays, and
+                everything in between.
+            </p>
+
+            <a href="contact.html" class="products-cta-button">
+                Get in Touch
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     FOOTER
+========================= -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <!-- Footer Main -->
+            <div class="footer-main">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo.png" alt="ClayNest">
+                    </a>
+
+                    <p class="footer-description">
+                        Thoughtfully crafted cookware and kitchen essentials
+                        designed to bring beauty and function to everyday cooking.
+                    </p>
+
+                    <div class="footer-social">
+
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" aria-label="Pinterest">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </a>
+
+                        <a href="#" aria-label="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Quick Links -->
+                <div class="footer-column">
+
+                    <h3>Explore</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Products</a>
+                        </li>
+
+                        <li>
+                            <a href="materials.html">Materials Guide</a>
+                        </li>
+
+                        <li>
+                            <a href="gift-sets.html">Gift Sets</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Collections -->
+                <div class="footer-column">
+
+                    <h3>Collections</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="products.html">Cookware</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Bakeware</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Storage</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Kitchen Tools</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Dining Sets</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Support -->
+                <div class="footer-column">
+
+                    <h3>Support</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="bulk-orders.html">Bulk Orders</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+
+                        <li>
+                            <a href="login.html">Login</a>
+                        </li>
+
+                        <li>
+                            <a href="register.html">Register</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Contact -->
+                <div class="footer-column footer-contact">
+
+                    <h3>Visit Us</h3>
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span>
+                            24 Kitchen Lane,<br>
+                            Chennai, Tamil Nadu
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <a href="tel:+919876543210">
+                            +91 98765 43210
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-regular fa-envelope"></i>
+
+                        <a href="mailto:hello@claynest.com">
+                            hello@claynest.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 ClayNest. All rights reserved.
+                </p>
+
+                <div class="footer-bottom-links">
+
+                    <a href="#">Privacy Policy</a>
+
+                    <span></span>
+
+                    <a href="#">Terms & Conditions</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Scroll To Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" type="button" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

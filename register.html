@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ClayNest</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Google Font - Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body class="auth-page">
+
+
+    <!-- =====================================================
+         TOP RIGHT ACTIONS
+    ====================================================== -->
+
+    <div class="auth-top-actions">
+
+        <button class="auth-action" id="desktopThemeToggle" type="button" aria-label="Toggle dark mode">
+
+            <i class="fa-solid fa-moon"></i>
+
+        </button>
+
+
+        <button class="auth-action" id="desktopRtlToggle" type="button" aria-label="Toggle RTL direction">
+
+            <i class="fa-solid fa-right-left"></i>
+
+        </button>
+
+    </div>
+
+
+    <!-- =====================================================
+         REGISTER AREA
+    ====================================================== -->
+
+    <main class="auth-main">
+
+        <div class="auth-card">
+
+
+            <!-- Logo -->
+
+            <a href="index.html" class="auth-logo">
+
+                <img src="images/logo.png" alt="ClayNest">
+
+            </a>
+
+
+            <!-- Heading -->
+
+            <div class="auth-heading">
+
+                <h1>
+                    Create your account
+                </h1>
+
+                <p>
+                    Join ClayNest and discover beautiful
+                    kitchen essentials.
+                </p>
+
+            </div>
+
+
+            <!-- Register Form -->
+
+            <form class="auth-form" action="#" method="post">
+
+
+                <!-- Full Name -->
+
+                <div class="auth-form-group">
+
+                    <label for="register-name">
+                        Full Name
+                    </label>
+
+                    <div class="auth-input-wrap">
+
+                        <i class="fa-regular fa-user"></i>
+
+                        <input type="text" id="register-name" name="name" placeholder="Enter your full name"
+                            autocomplete="name" required>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Email -->
+
+                <div class="auth-form-group">
+
+                    <label for="register-email">
+                        Email Address
+                    </label>
+
+                    <div class="auth-input-wrap">
+
+                        <i class="fa-regular fa-envelope"></i>
+
+                        <input type="email" id="register-email" name="email" placeholder="Enter your email"
+                            autocomplete="email" required>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Password -->
+
+                <div class="auth-form-group">
+
+                    <label for="register-password">
+                        Password
+                    </label>
+
+                    <div class="auth-input-wrap">
+
+                        <i class="fa-solid fa-lock"></i>
+
+                        <input type="password" id="register-password" name="password" placeholder="Create a password"
+                            autocomplete="new-password" required>
+
+                        <button type="button" class="password-toggle" data-target="register-password"
+                            aria-label="Show password">
+
+                            <i class="fa-regular fa-eye"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Confirm Password -->
+
+                <div class="auth-form-group">
+
+                    <label for="register-confirm-password">
+                        Confirm Password
+                    </label>
+
+                    <div class="auth-input-wrap">
+
+                        <i class="fa-solid fa-lock"></i>
+
+                        <input type="password" id="register-confirm-password" name="confirm_password"
+                            placeholder="Confirm your password" autocomplete="new-password" required>
+
+                        <button type="button" class="password-toggle" data-target="register-confirm-password"
+                            aria-label="Show password">
+
+                            <i class="fa-regular fa-eye"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Create Account -->
+
+                <button type="submit" class="auth-submit">
+
+                    Create Account
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+            </form>
+
+
+            <!-- Divider -->
+
+            <div class="auth-divider">
+
+                <span>
+                    or continue with
+                </span>
+
+            </div>
+
+
+            <!-- Social Login -->
+
+            <div class="social-login">
+
+
+                <!-- Google -->
+
+                <a href="#" class="social-button google" aria-label="Continue with Google">
+
+                    <img src="images/google-logo.svg" alt="Google">
+
+                </a>
+
+
+                <!-- Facebook -->
+
+                <a href="#" class="social-button facebook" aria-label="Continue with Facebook">
+
+                    <i class="fa-brands fa-facebook-f"></i>
+
+                </a>
+
+
+                <!-- Apple -->
+
+                <a href="#" class="social-button apple" aria-label="Continue with Apple">
+
+                    <i class="fa-brands fa-apple"></i>
+
+                </a>
+
+            </div>
+
+
+            <!-- Login Link -->
+
+            <p class="auth-switch">
+
+                Already have an account?
+
+                <a href="login.html">
+                    Login
+                </a>
+
+            </p>
+
+
+        </div>
+
+    </main>
+
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

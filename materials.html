@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ClayNest</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Google Font - Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+     HEADER
+========================= -->
+
+    <header class="site-header" id="siteHeader">
+        <div class="container header-container">
+
+            <!-- Logo -->
+            <a href="index.html" class="site-logo" aria-label="ClayNest Home">
+                <img src="images/logo.png" alt="ClayNest">
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <nav class="main-navigation" id="mainNavigation" aria-label="Main Navigation">
+
+                <ul class="nav-menu">
+
+                    <!-- Home Dropdown -->
+                    <li class="nav-item has-dropdown">
+
+                        <button class="nav-link dropdown-toggle" type="button" aria-expanded="false">
+                            Home
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="index.html">Home 1</a>
+                            </li>
+
+                            <li>
+                                <a href="home-2.html">Home 2</a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+
+
+                    <!-- Products -->
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">Products</a>
+                    </li>
+
+
+                    <!-- Materials -->
+                    <li class="nav-item">
+                        <a href="materials.html" class="nav-link">Materials Guide</a>
+                    </li>
+
+                    <!-- Gift Sets -->
+                    <li class="nav-item">
+                        <a href="gift-sets.html" class="nav-link">Gift Sets</a>
+                    </li>
+
+
+                    <!-- Bulk Orders -->
+                    <li class="nav-item">
+                        <a href="bulk-orders.html" class="nav-link">Bulk Orders</a>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+
+                </ul>
+
+
+                <!-- Mobile / Menu Actions -->
+                <div class="mobile-menu-actions">
+
+                    <!-- Dark Mode -->
+                    <button class="header-action" id="themeToggle" type="button" aria-label="Toggle dark mode">
+
+                        <span class="action-icon">
+                            <i class="fa-solid fa-moon"></i>
+                        </span>
+
+                        <span class="action-text">Dark Mode</span>
+
+                    </button>
+
+
+                    <!-- RTL -->
+                    <button class="header-action" id="rtlToggle" type="button" aria-label="Toggle RTL direction">
+
+                        <span class="action-icon">
+                            <i class="fa-solid fa-right-left"></i>
+                        </span>
+
+                        <span class="action-text">RTL Mode</span>
+
+                    </button>
+
+
+                    <!-- Login -->
+                    <a href="login.html" class="header-login">
+                        <span>Login</span>
+                    </a>
+
+                </div>
+
+            </nav>
+
+
+            <!-- Desktop Actions -->
+            <div class="header-actions">
+
+                <!-- Dark Mode -->
+                <button class="desktop-action" id="desktopThemeToggle" type="button" aria-label="Toggle dark mode">
+
+                    <i class="fa-solid fa-moon"></i>
+
+                </button>
+
+
+                <!-- RTL -->
+                <button class="desktop-action" id="desktopRtlToggle" type="button" aria-label="Toggle RTL direction">
+
+                    <i class="fa-solid fa-right-left"></i>
+
+                </button>
+
+
+                <!-- Login -->
+                <a href="login.html" class="header-login">
+                    <span>Login</span>
+                </a>
+
+            </div>
+
+
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false"
+                aria-controls="mainNavigation">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- =========================
+     PAGE HERO
+========================= -->
+
+    <section class="page-hero materials-banner">
+
+        <div class="page-hero-overlay">
+
+            <div class="container page-hero-container">
+
+                <h1 class="page-hero-title">
+                    Know What You Cook With.
+                </h1>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     MATERIALS GUIDE — WHY MATERIALS MATTER
+     ========================================================= -->
+
+    <section class="materials-why">
+
+        <div class="materials-why-container">
+
+            <div class="materials-why-heading">
+
+                <span class="materials-why-label">
+                    WHY MATERIALS MATTER
+                </span>
+
+                <h2>
+                    The right material
+                    <em>changes the way you cook.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="materials-why-body">
+
+                <p>
+                    Cookware is more than the shape of a pan.
+                    The material beneath your food influences
+                    how heat moves, how a piece feels in your
+                    hands, and how it performs meal after meal.
+                </p>
+
+                <p>
+                    Understanding those differences helps you
+                    choose pieces that suit the way you actually
+                    cook — whether you prefer quick everyday
+                    meals, slow cooking, or versatile kitchen
+                    essentials.
+                </p>
+
+            </div>
+
+
+            <div class="materials-factors">
+
+                <div class="material-factor">
+
+                    <span class="factor-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Heat Behaviour
+                    </h3>
+
+                    <p>
+                        Different materials absorb, distribute,
+                        and retain heat in different ways.
+                    </p>
+
+                </div>
+
+
+                <div class="material-factor">
+
+                    <span class="factor-number">
+                        02
+                    </span>
+
+                    <h3>
+                        Durability
+                    </h3>
+
+                    <p>
+                        The right material can make cookware
+                        dependable for years.
+                    </p>
+
+                </div>
+
+
+                <div class="material-factor">
+
+                    <span class="factor-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Care
+                    </h3>
+
+                    <p>
+                        Each material has its own simple care
+                        routine to keep it performing well.
+                    </p>
+
+                </div>
+
+
+                <div class="material-factor">
+
+                    <span class="factor-number">
+                        04
+                    </span>
+
+                    <h3>
+                        Cooking Experience
+                    </h3>
+
+                    <p>
+                        Weight, texture, responsiveness, and
+                        finish all shape the way a piece feels.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     MATERIALS GUIDE — EXPLORE MATERIALS
+     ========================================================= -->
+
+    <section class="materials-explore">
+
+        <div class="materials-explore-container">
+
+            <div class="materials-explore-heading">
+
+                <span class="materials-explore-label">
+                    EXPLORE THE MATERIALS
+                </span>
+
+                <h2>
+                    Know your cookware,
+                    <em>choose with confidence.</em>
+                </h2>
+
+            </div>
+
+
+            <!-- =================================================
+             CERAMIC
+             ================================================= -->
+
+            <article class="material-detail">
+
+                <div class="material-detail-image">
+
+                    <img src="images/material-ceramic.jpg" alt="Ceramic cookware">
+
+                </div>
+
+
+                <div class="material-detail-content">
+
+                    <span class="material-detail-number">
+                        01
+                    </span>
+
+                    <span class="material-detail-label">
+                        LIGHT & EVERYDAY
+                    </span>
+
+                    <h3>
+                        Ceramic
+                    </h3>
+
+                    <p>
+                        Ceramic cookware is a comfortable choice
+                        for everyday cooking, offering a smooth
+                        cooking surface and an easy-to-handle feel.
+                    </p>
+
+
+                    <div class="material-detail-info">
+
+                        <div>
+                            <strong>
+                                Best for
+                            </strong>
+
+                            <span>
+                                Everyday cooking
+                            </span>
+                        </div>
+
+                        <div>
+                            <strong>
+                                Feel
+                            </strong>
+
+                            <span>
+                                Light & smooth
+                            </span>
+                        </div>
+
+                        <div>
+                            <strong>
+                                Care
+                            </strong>
+
+                            <span>
+                                Simple
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+             CAST IRON
+             ================================================= -->
+
+            <article class="material-detail material-detail-reverse">
+
+                <div class="material-detail-image">
+
+                    <img src="images/material-cast-iron.jpg" alt="Cast iron cookware">
+
+                </div>
+
+
+                <div class="material-detail-content">
+
+                    <span class="material-detail-number">
+                        02
+                    </span>
+
+                    <span class="material-detail-label">
+                        STRONG & ENDURING
+                    </span>
+
+                    <h3>
+                        Cast Iron
+                    </h3>
+
+                    <p>
+                        Cast iron is valued for its excellent heat
+                        retention and substantial feel, making it
+                        especially suited to slow, hearty cooking.
+                    </p>
+
+
+                    <div class="material-detail-info">
+
+                        <div>
+                            <strong>
+                                Best for
+                            </strong>
+
+                            <span>
+                                Slow cooking
+                            </span>
+                        </div>
+
+                        <div>
+                            <strong>
+                                Heat
+                            </strong>
+
+                            <span>
+                                Excellent retention
+                            </span>
+                        </div>
+
+                        <div>
+                            <strong>
+                                Care
+                            </strong>
+
+                            <span>
+                                Regular care
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+             STAINLESS STEEL
+             ================================================= -->
+
+            <article class="material-detail">
+
+                <div class="material-detail-image">
+
+                    <img src="images/material-stainless.jpg" alt="Stainless steel cookware">
+
+                </div>
+
+
+                <div class="material-detail-content">
+
+                    <span class="material-detail-number">
+                        03
+                    </span>
+
+                    <span class="material-detail-label">
+                        VERSATILE & RELIABLE
+                    </span>
+
+                    <h3>
+                        Stainless Steel
+                    </h3>
+
+                    <p>
+                        Stainless steel is a dependable all-rounder,
+                        valued for its strength, versatility and
+                        ability to handle a wide range of cooking tasks.
+                    </p>
+
+
+                    <div class="material-detail-info">
+
+                        <div>
+                            <strong>
+                                Best for
+                            </strong>
+
+                            <span>
+                                Versatile cooking
+                            </span>
+                        </div>
+
+                        <div>
+                            <strong>
+                                Feel
+                            </strong>
+
+                            <span>
+                                Strong & balanced
+                            </span>
+                        </div>
+
+                        <div>
+                            <strong>
+                                Care
+                            </strong>
+
+                            <span>
+                                Easy
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     MATERIALS GUIDE — FIND YOUR MATCH
+     ========================================================= -->
+
+    <section class="find-match">
+
+        <div class="find-match-container">
+
+            <div class="find-match-heading">
+
+                <span class="find-match-label">
+                    FIND YOUR MATCH
+                </span>
+
+                <h2>
+                    Which material fits
+                    <em>your way of cooking?</em>
+                </h2>
+
+                <p>
+                    Every kitchen has its own rhythm. Use this
+                    simple guide to find the material that feels
+                    right for yours.
+                </p>
+
+            </div>
+
+
+            <div class="match-board">
+
+                <!-- Ceramic -->
+
+                <div class="match-column">
+
+                    <div class="match-material">
+                        Ceramic
+                    </div>
+
+                    <div class="match-row">
+
+                        <span>Best for</span>
+                        <strong>Everyday meals</strong>
+
+                    </div>
+
+                    <div class="match-row">
+
+                        <span>Heat</span>
+                        <strong>Even & gentle</strong>
+
+                    </div>
+
+                    <div class="match-row">
+
+                        <span>Weight</span>
+                        <strong>Light</strong>
+
+                    </div>
+
+                    <div class="match-row">
+
+                        <span>Care</span>
+                        <strong>Simple</strong>
+
+                    </div>
+
+                    <div class="match-row">
+
+                        <span>Ideal for</span>
+                        <strong>Daily cooking</strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Cast Iron -->
+
+                <div class="match-column">
+
+                    <div class="match-material">
+                        Cast Iron
+                    </div>
+
+                    <div class="match-row">
+
+                        <span>Best for</span>
+                        <strong>Slow cooking</strong>
+
+                    </div>
+
+                    <div class="match-row">
+
+                        <span>Heat</span>
+                        <strong>Excellent retention</strong>
+
+                    </div>
+
+                    <div class="match-row">
+
+                        <span>Weight</span>
+                        <strong>Heavy</strong>
+
+                    </div>
+
+                    <div class="match-row">
+
+                        <span>Care</span>
+                        <strong>Regular</strong>
+
+                    </div>
+
+                    <div class="match-row">
+
+                        <span>Ideal for</span>
+                        <strong>Roasts & stews</strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Stainless Steel -->
+
+                <div class="match-column">
+
+                    <div class="match-material">
+                        Stainless Steel
+                    </div>
+
+                    <div class="match-row">
+
+                        <span>Best for</span>
+                        <strong>Versatile cooking</strong>
+
+                    </div>
+
+                    <div class="match-row">
+
+                        <span>Heat</span>
+                        <strong>Fast & responsive</strong>
+
+                    </div>
+
+                    <div class="match-row">
+
+                        <span>Weight</span>
+                        <strong>Balanced</strong>
+
+                    </div>
+
+                    <div class="match-row">
+
+                        <span>Care</span>
+                        <strong>Easy</strong>
+
+                    </div>
+
+                    <div class="match-row">
+
+                        <span>Ideal for</span>
+                        <strong>Everyday versatility</strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="find-match-footer">
+
+                <span>
+                    Still deciding?
+                </span>
+
+                <a href="products.html">
+                    Explore the collection
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     MATERIALS GUIDE — RECIPE INSPIRATION
+     ========================================================= -->
+
+    <section class="materials-recipes">
+
+        <div class="recipes-container">
+
+            <div class="recipes-heading">
+
+                <span class="recipes-label">
+                    RECIPE INSPIRATION
+                </span>
+
+                <h2>
+                    Good ingredients deserve
+                    <em>good cookware.</em>
+                </h2>
+
+                <p>
+                    Discover recipes that bring out the best in
+                    every material, from quick weekday meals to
+                    slow weekend favourites.
+                </p>
+
+            </div>
+
+
+            <div class="recipes-layout">
+
+                <!-- Featured Recipe -->
+
+                <article class="recipe-feature">
+
+                    <div class="recipe-feature-image">
+
+                        <img src="images/recipe-feature.jpg" alt="Weeknight pasta served in ceramic cookware">
+
+                    </div>
+
+                    <div class="recipe-feature-content">
+
+                        <span>
+                            CERAMIC · 20 MIN
+                        </span>
+
+                        <h3>
+                            Weeknight Pasta
+                        </h3>
+
+                        <p>
+                            A simple, comforting pasta made for
+                            busy evenings and easy clean-up.
+                        </p>
+
+                        <a href="#" class="recipe-read-link">
+                            Read Recipe
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Smaller Recipes -->
+
+                <div class="recipe-side-list">
+
+                    <article class="recipe-small">
+
+                        <div class="recipe-small-image">
+
+                            <img src="images/recipe-roast.jpg" alt="Slow roasted vegetables">
+
+                        </div>
+
+                        <div class="recipe-small-content">
+
+                            <span>
+                                CAST IRON
+                            </span>
+
+                            <h3>
+                                Slow Sunday Roast
+                            </h3>
+
+                            <a href="#">
+                                Read Recipe
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="recipe-small">
+
+                        <div class="recipe-small-image">
+
+                            <img src="images/recipe-stir-fry.jpg" alt="Fresh vegetable stir fry">
+
+                        </div>
+
+                        <div class="recipe-small-content">
+
+                            <span>
+                                STAINLESS STEEL
+                            </span>
+
+                            <h3>
+                                Golden Stir-Fry
+                            </h3>
+
+                            <a href="#">
+                                Read Recipe
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     MATERIALS — CARE & COOK WITH CONFIDENCE
+     ========================================================= -->
+
+    <section class="care-confidence">
+
+        <div class="care-container">
+
+            <!-- LEFT CONTENT -->
+            <div class="care-content">
+
+                <span class="care-label">
+                    CARE &amp; COOK WITH CONFIDENCE
+                </span>
+
+                <h2>
+                    Cook well.
+                    <em>Care simply.</em>
+                </h2>
+
+                <p class="care-intro">
+                    A little care goes a long way. Follow these simple
+                    guidelines to keep your cookware performing
+                    beautifully for years.
+                </p>
+
+
+                <!-- CARE TIPS -->
+
+                <div class="care-tips">
+
+                    <!-- Tip 01 -->
+                    <div class="care-tip">
+
+                        <div class="care-icon">
+                            <i class="fa-solid fa-hand-sparkles"></i>
+                        </div>
+
+                        <span>
+                            Follow material-specific care
+                        </span>
+
+                    </div>
+
+
+                    <!-- Tip 02 -->
+                    <div class="care-tip">
+
+                        <div class="care-icon">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+
+                        <span>
+                            Use appropriate utensils
+                        </span>
+
+                    </div>
+
+
+                    <!-- Tip 03 -->
+                    <div class="care-tip">
+
+                        <div class="care-icon">
+                            <i class="fa-solid fa-temperature-low"></i>
+                        </div>
+
+                        <span>
+                            Let cookware cool naturally
+                        </span>
+
+                    </div>
+
+
+                    <!-- Tip 04 -->
+                    <div class="care-tip">
+
+                        <div class="care-icon">
+                            <i class="fa-solid fa-box-open"></i>
+                        </div>
+
+                        <span>
+                            Store thoughtfully
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CTA -->
+
+                <a href="products.html" class="care-button">
+                    EXPLORE OUR COLLECTION
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <!-- RIGHT IMAGE -->
+
+            <div class="care-image">
+
+                <img src="images/material-care.jpg" alt="ClayNest cookware collection">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     FOOTER
+========================= -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <!-- Footer Main -->
+            <div class="footer-main">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo.png" alt="ClayNest">
+                    </a>
+
+                    <p class="footer-description">
+                        Thoughtfully crafted cookware and kitchen essentials
+                        designed to bring beauty and function to everyday cooking.
+                    </p>
+
+                    <div class="footer-social">
+
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" aria-label="Pinterest">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </a>
+
+                        <a href="#" aria-label="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Quick Links -->
+                <div class="footer-column">
+
+                    <h3>Explore</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Products</a>
+                        </li>
+
+                        <li>
+                            <a href="materials.html">Materials Guide</a>
+                        </li>
+
+                        <li>
+                            <a href="gift-sets.html">Gift Sets</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Collections -->
+                <div class="footer-column">
+
+                    <h3>Collections</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="products.html">Cookware</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Bakeware</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Storage</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Kitchen Tools</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Dining Sets</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Support -->
+                <div class="footer-column">
+
+                    <h3>Support</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="bulk-orders.html">Bulk Orders</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+
+                        <li>
+                            <a href="login.html">Login</a>
+                        </li>
+
+                        <li>
+                            <a href="register.html">Register</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Contact -->
+                <div class="footer-column footer-contact">
+
+                    <h3>Visit Us</h3>
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span>
+                            24 Kitchen Lane,<br>
+                            Chennai, Tamil Nadu
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <a href="tel:+919876543210">
+                            +91 98765 43210
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-regular fa-envelope"></i>
+
+                        <a href="mailto:hello@claynest.com">
+                            hello@claynest.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 ClayNest. All rights reserved.
+                </p>
+
+                <div class="footer-bottom-links">
+
+                    <a href="#">Privacy Policy</a>
+
+                    <span></span>
+
+                    <a href="#">Terms & Conditions</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Scroll To Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" type="button" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

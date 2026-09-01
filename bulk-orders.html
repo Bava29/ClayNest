@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ClayNest</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Google Font - Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+     HEADER
+========================= -->
+
+    <header class="site-header" id="siteHeader">
+        <div class="container header-container">
+
+            <!-- Logo -->
+            <a href="index.html" class="site-logo" aria-label="ClayNest Home">
+                <img src="images/logo.png" alt="ClayNest">
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <nav class="main-navigation" id="mainNavigation" aria-label="Main Navigation">
+
+                <ul class="nav-menu">
+
+                    <!-- Home Dropdown -->
+                    <li class="nav-item has-dropdown">
+
+                        <button class="nav-link dropdown-toggle" type="button" aria-expanded="false">
+                            Home
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="index.html">Home 1</a>
+                            </li>
+
+                            <li>
+                                <a href="home-2.html">Home 2</a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+
+
+                    <!-- Products -->
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">Products</a>
+                    </li>
+
+
+                    <!-- Materials -->
+                    <li class="nav-item">
+                        <a href="materials.html" class="nav-link">Materials Guide</a>
+                    </li>
+
+                    <!-- Gift Sets -->
+                    <li class="nav-item">
+                        <a href="gift-sets.html" class="nav-link">Gift Sets</a>
+                    </li>
+
+
+                    <!-- Bulk Orders -->
+                    <li class="nav-item">
+                        <a href="bulk-orders.html" class="nav-link">Bulk Orders</a>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+
+                </ul>
+
+
+                <!-- Mobile / Menu Actions -->
+                <div class="mobile-menu-actions">
+
+                    <!-- Dark Mode -->
+                    <button class="header-action" id="themeToggle" type="button" aria-label="Toggle dark mode">
+
+                        <span class="action-icon">
+                            <i class="fa-solid fa-moon"></i>
+                        </span>
+
+                        <span class="action-text">Dark Mode</span>
+
+                    </button>
+
+
+                    <!-- RTL -->
+                    <button class="header-action" id="rtlToggle" type="button" aria-label="Toggle RTL direction">
+
+                        <span class="action-icon">
+                            <i class="fa-solid fa-right-left"></i>
+                        </span>
+
+                        <span class="action-text">RTL Mode</span>
+
+                    </button>
+
+
+                    <!-- Login -->
+                    <a href="login.html" class="header-login">
+                        <span>Login</span>
+                    </a>
+
+                </div>
+
+            </nav>
+
+
+            <!-- Desktop Actions -->
+            <div class="header-actions">
+
+                <!-- Dark Mode -->
+                <button class="desktop-action" id="desktopThemeToggle" type="button" aria-label="Toggle dark mode">
+
+                    <i class="fa-solid fa-moon"></i>
+
+                </button>
+
+
+                <!-- RTL -->
+                <button class="desktop-action" id="desktopRtlToggle" type="button" aria-label="Toggle RTL direction">
+
+                    <i class="fa-solid fa-right-left"></i>
+
+                </button>
+
+
+                <!-- Login -->
+                <a href="login.html" class="header-login">
+                    <span>Login</span>
+                </a>
+
+            </div>
+
+
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false"
+                aria-controls="mainNavigation">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- =========================
+     PAGE HERO
+========================= -->
+
+    <section class="page-hero bulk-order-banner">
+
+        <div class="page-hero-overlay">
+
+            <div class="container page-hero-container">
+
+                <h1 class="page-hero-title">
+                    Corporate Bulk Orders
+                </h1>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+     BULK ORDER BENEFITS
+========================= -->
+
+    <section class="bulk-benefits-section">
+
+        <div class="container">
+
+            <div class="bulk-benefits-wrapper">
+
+                <!-- Main Statement -->
+
+                <div class="bulk-benefits-intro">
+
+                    <h2>
+                        Made for
+                        <span>bigger moments.</span>
+                    </h2>
+
+                    <p>
+                        From corporate gifting to hospitality and
+                        large-scale events, ClayNest makes it easier
+                        to bring thoughtful kitchen essentials to
+                        every occasion.
+                    </p>
+
+                </div>
+
+
+                <!-- Benefits -->
+
+                <div class="bulk-benefits-list">
+
+                    <!-- Benefit 01 -->
+
+                    <div class="bulk-benefit-item">
+
+                        <div class="bulk-benefit-number">
+                            01
+                        </div>
+
+                        <div class="bulk-benefit-content">
+
+                            <h3>
+                                Volume Pricing
+                            </h3>
+
+                            <p>
+                                Get better value when ordering larger
+                                quantities for your organisation or event.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Benefit 02 -->
+
+                    <div class="bulk-benefit-item">
+
+                        <div class="bulk-benefit-number">
+                            02
+                        </div>
+
+                        <div class="bulk-benefit-content">
+
+                            <h3>
+                                Curated Collections
+                            </h3>
+
+                            <p>
+                                Choose from cookware, bakeware, dining
+                                sets, storage and everyday kitchen essentials.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Benefit 03 -->
+
+                    <div class="bulk-benefit-item">
+
+                        <div class="bulk-benefit-number">
+                            03
+                        </div>
+
+                        <div class="bulk-benefit-content">
+
+                            <h3>
+                                Flexible Requirements
+                            </h3>
+
+                            <p>
+                                Build the right product combination and
+                                quantity around your specific requirements.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Benefit 04 -->
+
+                    <div class="bulk-benefit-item">
+
+                        <div class="bulk-benefit-number">
+                            04
+                        </div>
+
+                        <div class="bulk-benefit-content">
+
+                            <h3>
+                                Reliable Support
+                            </h3>
+
+                            <p>
+                                Our team will guide you from the initial
+                                enquiry through to your final order.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     BULK ORDER ENQUIRY
+========================= -->
+
+    <section class="bulk-enquiry-section">
+
+        <div class="container">
+
+            <div class="bulk-enquiry-wrapper">
+
+                <!-- Enquiry Introduction -->
+
+                <div class="bulk-enquiry-intro">
+
+                    <h2>
+                        Let's create
+                        something together.
+                    </h2>
+
+                    <p>
+                        Tell us what you're looking for and our team
+                        will help you find the right ClayNest products
+                        for your business, event, or organisation.
+                    </p>
+
+                    <div class="bulk-enquiry-note">
+
+                        <i class="fa-solid fa-comments"></i>
+
+                        <span>
+                            Our team will review your enquiry
+                            and get back to you shortly.
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Enquiry Form -->
+
+                <form class="bulk-enquiry-form" action="#" method="post">
+
+                    <div class="bulk-form-row">
+
+                        <div class="bulk-form-group">
+
+                            <label for="bulk-name">
+                                Full Name
+                            </label>
+
+                            <input type="text" id="bulk-name" name="name" placeholder="Enter your name" required>
+
+                        </div>
+
+
+                        <div class="bulk-form-group">
+
+                            <label for="bulk-company">
+                                Company / Organisation
+                            </label>
+
+                            <input type="text" id="bulk-company" name="company" placeholder="Enter company name"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="bulk-form-row">
+
+                        <div class="bulk-form-group">
+
+                            <label for="bulk-email">
+                                Work Email
+                            </label>
+
+                            <input type="email" id="bulk-email" name="email" placeholder="Enter your work email"
+                                required>
+
+                        </div>
+
+
+                        <div class="bulk-form-group">
+
+                            <label for="bulk-phone">
+                                Phone Number
+                            </label>
+
+                            <input type="tel" id="bulk-phone" name="phone" placeholder="Enter your phone number"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="bulk-form-row">
+
+                        <div class="bulk-form-group">
+
+                            <label for="bulk-order-type">
+                                Order Type
+                            </label>
+
+                            <select id="bulk-order-type" name="order_type" required>
+
+                                <option value="" selected disabled>
+                                    Select order type
+                                </option>
+
+                                <option value="corporate-gifting">
+                                    Corporate Gifting
+                                </option>
+
+                                <option value="hospitality">
+                                    Hospitality
+                                </option>
+
+                                <option value="restaurant-cafe">
+                                    Restaurant / Café
+                                </option>
+
+                                <option value="retail">
+                                    Retail
+                                </option>
+
+                                <option value="events">
+                                    Events & Occasions
+                                </option>
+
+                                <option value="other">
+                                    Other
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="bulk-form-group">
+
+                            <label for="bulk-category">
+                                Product Category
+                            </label>
+
+                            <select id="bulk-category" name="category" required>
+
+                                <option value="" selected disabled>
+                                    Select category
+                                </option>
+
+                                <option value="cookware">
+                                    Cookware
+                                </option>
+
+                                <option value="bakeware">
+                                    Bakeware
+                                </option>
+
+                                <option value="storage">
+                                    Storage Containers
+                                </option>
+
+                                <option value="tools">
+                                    Kitchen Tools
+                                </option>
+
+                                <option value="dining">
+                                    Dining Sets
+                                </option>
+
+                                <option value="mixed">
+                                    Mixed Collection
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="bulk-form-row">
+
+                        <div class="bulk-form-group">
+
+                            <label for="bulk-quantity">
+                                Estimated Quantity
+                            </label>
+
+                            <input type="number" id="bulk-quantity" name="quantity" placeholder="e.g. 100" min="1">
+
+                        </div>
+
+
+                        <div class="bulk-form-group">
+
+                            <label for="bulk-date">
+                                Required Delivery Date
+                            </label>
+
+                            <input type="date" id="bulk-date" name="delivery_date">
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="bulk-form-group">
+
+                        <label for="bulk-message">
+                            Tell Us About Your Requirements
+                        </label>
+
+                        <textarea id="bulk-message" name="message"
+                            placeholder="Share your requirements, preferred products, quantity details, or anything else we should know..."
+                            required></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="bulk-submit-button">
+
+                        Submit Enquiry
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     BULK ORDER CTA
+========================= -->
+
+    <section class="bulk-cta-section">
+
+        <div class="bulk-cta-overlay">
+
+            <div class="container">
+
+                <div class="bulk-cta-content">
+
+                    <h2>
+                        Planning something bigger?
+                    </h2>
+
+                    <p>
+                        Tell us what you need and let’s create
+                        the right collection for your occasion.
+                    </p>
+
+                    <a href="#bulk-enquiry" class="bulk-cta-button">
+                        Start Your Enquiry
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+     FOOTER
+========================= -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <!-- Footer Main -->
+            <div class="footer-main">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo.png" alt="ClayNest">
+                    </a>
+
+                    <p class="footer-description">
+                        Thoughtfully crafted cookware and kitchen essentials
+                        designed to bring beauty and function to everyday cooking.
+                    </p>
+
+                    <div class="footer-social">
+
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" aria-label="Pinterest">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </a>
+
+                        <a href="#" aria-label="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Quick Links -->
+                <div class="footer-column">
+
+                    <h3>Explore</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Products</a>
+                        </li>
+
+                        <li>
+                            <a href="materials.html">Materials Guide</a>
+                        </li>
+
+                        <li>
+                            <a href="gift-sets.html">Gift Sets</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Collections -->
+                <div class="footer-column">
+
+                    <h3>Collections</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="products.html">Cookware</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Bakeware</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Storage</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Kitchen Tools</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Dining Sets</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Support -->
+                <div class="footer-column">
+
+                    <h3>Support</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="bulk-orders.html">Bulk Orders</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+
+                        <li>
+                            <a href="login.html">Login</a>
+                        </li>
+
+                        <li>
+                            <a href="register.html">Register</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Contact -->
+                <div class="footer-column footer-contact">
+
+                    <h3>Visit Us</h3>
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span>
+                            24 Kitchen Lane,<br>
+                            Chennai, Tamil Nadu
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <a href="tel:+919876543210">
+                            +91 98765 43210
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-regular fa-envelope"></i>
+
+                        <a href="mailto:hello@claynest.com">
+                            hello@claynest.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 ClayNest. All rights reserved.
+                </p>
+
+                <div class="footer-bottom-links">
+
+                    <a href="#">Privacy Policy</a>
+
+                    <span></span>
+
+                    <a href="#">Terms & Conditions</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Scroll To Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" type="button" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

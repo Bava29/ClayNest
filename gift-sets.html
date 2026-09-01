@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ClayNest</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Google Font - Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+     HEADER
+========================= -->
+
+    <header class="site-header" id="siteHeader">
+        <div class="container header-container">
+
+            <!-- Logo -->
+            <a href="index.html" class="site-logo" aria-label="ClayNest Home">
+                <img src="images/logo.png" alt="ClayNest">
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <nav class="main-navigation" id="mainNavigation" aria-label="Main Navigation">
+
+                <ul class="nav-menu">
+
+                    <!-- Home Dropdown -->
+                    <li class="nav-item has-dropdown">
+
+                        <button class="nav-link dropdown-toggle" type="button" aria-expanded="false">
+                            Home
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="index.html">Home 1</a>
+                            </li>
+
+                            <li>
+                                <a href="home-2.html">Home 2</a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+
+
+                    <!-- Products -->
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">Products</a>
+                    </li>
+
+
+                    <!-- Materials -->
+                    <li class="nav-item">
+                        <a href="materials.html" class="nav-link">Materials Guide</a>
+                    </li>
+
+                    <!-- Gift Sets -->
+                    <li class="nav-item">
+                        <a href="gift-sets.html" class="nav-link">Gift Sets</a>
+                    </li>
+
+
+                    <!-- Bulk Orders -->
+                    <li class="nav-item">
+                        <a href="bulk-orders.html" class="nav-link">Bulk Orders</a>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+
+                </ul>
+
+
+                <!-- Mobile / Menu Actions -->
+                <div class="mobile-menu-actions">
+
+                    <!-- Dark Mode -->
+                    <button class="header-action" id="themeToggle" type="button" aria-label="Toggle dark mode">
+
+                        <span class="action-icon">
+                            <i class="fa-solid fa-moon"></i>
+                        </span>
+
+                        <span class="action-text">Dark Mode</span>
+
+                    </button>
+
+
+                    <!-- RTL -->
+                    <button class="header-action" id="rtlToggle" type="button" aria-label="Toggle RTL direction">
+
+                        <span class="action-icon">
+                            <i class="fa-solid fa-right-left"></i>
+                        </span>
+
+                        <span class="action-text">RTL Mode</span>
+
+                    </button>
+
+
+                    <!-- Login -->
+                    <a href="login.html" class="header-login">
+                        <span>Login</span>
+                    </a>
+
+                </div>
+
+            </nav>
+
+
+            <!-- Desktop Actions -->
+            <div class="header-actions">
+
+                <!-- Dark Mode -->
+                <button class="desktop-action" id="desktopThemeToggle" type="button" aria-label="Toggle dark mode">
+
+                    <i class="fa-solid fa-moon"></i>
+
+                </button>
+
+
+                <!-- RTL -->
+                <button class="desktop-action" id="desktopRtlToggle" type="button" aria-label="Toggle RTL direction">
+
+                    <i class="fa-solid fa-right-left"></i>
+
+                </button>
+
+
+                <!-- Login -->
+                <a href="login.html" class="header-login">
+                    <span>Login</span>
+                </a>
+
+            </div>
+
+
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false"
+                aria-controls="mainNavigation">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- =========================
+     PAGE HERO
+========================= -->
+
+    <section class="page-hero gift-banner">
+
+        <div class="page-hero-overlay">
+
+            <div class="container page-hero-container">
+
+                <h1 class="page-hero-title">
+                    Gifts Made for Gathering.
+                </h1>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+     GIFT SETS — THE ART OF GIFTING
+     ========================================================= -->
+
+    <section class="gift-art">
+
+        <div class="gift-art-container">
+
+            <!-- Heading -->
+
+            <div class="gift-art-heading">
+
+                <span class="gift-art-label">
+                    THE ART OF GIFTING
+                </span>
+
+                <h2>
+                    Some gifts become
+                    <em>part of the home.</em>
+                </h2>
+
+            </div>
+
+
+            <!-- Main Content -->
+
+            <div class="gift-art-layout">
+
+                <div class="gift-art-image">
+
+                    <img src="images/gift-art.jpg" alt="Beautifully arranged ClayNest kitchen gift">
+
+                </div>
+
+
+                <div class="gift-art-content">
+
+                    <p class="gift-art-lead">
+                        The best gifts are not simply opened.
+                        They become part of everyday life.
+                    </p>
+
+                    <p>
+                        At ClayNest, we choose pieces that feel
+                        beautiful enough to give and useful enough
+                        to become part of someone's daily ritual.
+                    </p>
+
+                    <p>
+                        From a thoughtful housewarming gesture to
+                        a celebration shared with someone special,
+                        every set is created to make the kitchen
+                        feel a little more personal.
+                    </p>
+
+
+                    <div class="gift-art-signature">
+                        <span>
+                            Thoughtfully chosen
+                        </span>
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                        <span>
+                            Beautifully given
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+     GIFT SETS — FEATURED COLLECTION
+     ========================================================= -->
+
+    <section class="gift-collection">
+
+        <div class="gift-collection-container">
+
+            <div class="gift-collection-heading">
+
+                <span class="gift-collection-label">
+                    OUR GIFT COLLECTION
+                </span>
+
+                <h2>
+                    Chosen for moments
+                    <em>worth celebrating.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="gift-collection-grid">
+
+                <!-- FEATURED GIFT SET -->
+
+                <a href="gift-housewarming.html" class="gift-product gift-product-featured">
+
+                    <div class="gift-product-image">
+
+                        <img src="images/gift-housewarming.jpg" alt="The Housewarming Gift Set">
+
+                    </div>
+
+                    <div class="gift-product-content">
+
+                        <div>
+                            <span class="gift-product-tag">
+                                05 PIECES
+                            </span>
+
+                            <h3>
+                                The Housewarming Set
+                            </h3>
+
+                            <p>
+                                A thoughtful collection for
+                                starting a new kitchen together.
+                            </p>
+                        </div>
+
+                        <span class="gift-product-arrow">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- EVERYDAY COOK SET -->
+
+                <a href="gift-everyday-cook.html" class="gift-product">
+
+                    <div class="gift-product-image">
+
+                        <img src="images/gift-everyday-cook.jpg" alt="The Everyday Cook Gift Set">
+
+                    </div>
+
+                    <div class="gift-product-content">
+
+                        <div>
+                            <span class="gift-product-tag">
+                                04 PIECES
+                            </span>
+
+                            <h3>
+                                The Everyday Cook Set
+                            </h3>
+
+                            <p>
+                                Essential pieces for someone
+                                who loves to cook.
+                            </p>
+                        </div>
+
+                        <span class="gift-product-arrow">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- HOST TABLE SET -->
+
+                <a href="gift-host-table.html" class="gift-product">
+
+                    <div class="gift-product-image">
+
+                        <img src="images/gift-host-table.jpg" alt="The Host's Table Gift Set">
+
+                    </div>
+
+                    <div class="gift-product-content">
+
+                        <div>
+                            <span class="gift-product-tag">
+                                06 PIECES
+                            </span>
+
+                            <h3>
+                                The Host's Table Set
+                            </h3>
+
+                            <p>
+                                Beautiful essentials made for
+                                generous hosts and shared meals.
+                            </p>
+                        </div>
+
+                        <span class="gift-product-arrow">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     GIFT SETS — CHOOSE BY OCCASION
+     ========================================================= -->
+
+    <section class="gift-occasions">
+
+        <div class="gift-occasions-container">
+
+            <div class="gift-occasions-heading">
+
+                <span class="gift-occasions-label">
+                    CHOOSE BY OCCASION
+                </span>
+
+                <h2>
+                    A thoughtful gift for
+                    <em>every kind of moment.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="occasion-list">
+
+                <!-- Occasion 01 -->
+
+                <a href="gift-housewarming.html" class="occasion-item">
+
+                    <span class="occasion-number">
+                        01
+                    </span>
+
+                    <div class="occasion-title">
+                        <h3>
+                            Housewarming
+                        </h3>
+
+                        <p>
+                            For a beautiful new beginning.
+                        </p>
+                    </div>
+
+                    <div class="occasion-image">
+
+                        <img src="images/occasion-housewarming.jpg" alt="Housewarming gift">
+
+                    </div>
+
+                    <span class="occasion-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+
+                </a>
+
+
+                <!-- Occasion 02 -->
+
+                <a href="gift-celebration.html" class="occasion-item">
+
+                    <span class="occasion-number">
+                        02
+                    </span>
+
+                    <div class="occasion-title">
+                        <h3>
+                            Wedding &amp; Anniversary
+                        </h3>
+
+                        <p>
+                            Pieces for a kitchen built together.
+                        </p>
+                    </div>
+
+                    <div class="occasion-image">
+
+                        <img src="images/occasion-wedding.jpg" alt="Wedding and anniversary gift">
+
+                    </div>
+
+                    <span class="occasion-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+
+                </a>
+
+
+                <!-- Occasion 03 -->
+
+                <a href="gift-festive.html" class="occasion-item">
+
+                    <span class="occasion-number">
+                        03
+                    </span>
+
+                    <div class="occasion-title">
+                        <h3>
+                            Festive Gifting
+                        </h3>
+
+                        <p>
+                            Thoughtful essentials for the season.
+                        </p>
+                    </div>
+
+                    <div class="occasion-image">
+
+                        <img src="images/occasion-festive.jpg" alt="Festive kitchen gift">
+
+                    </div>
+
+                    <span class="occasion-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+
+                </a>
+
+
+                <!-- Occasion 04 -->
+
+                <a href="gift-just-because.html" class="occasion-item">
+
+                    <span class="occasion-number">
+                        04
+                    </span>
+
+                    <div class="occasion-title">
+                        <h3>
+                            Just Because
+                        </h3>
+
+                        <p>
+                            A little something for someone special.
+                        </p>
+                    </div>
+
+                    <div class="occasion-image">
+
+                        <img src="images/occasion-just-because.jpg" alt="Thoughtful everyday gift">
+
+                    </div>
+
+                    <span class="occasion-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     GIFT SETS — BUILD A GIFT
+     ========================================================= -->
+
+    <section class="gift-build">
+
+        <div class="gift-build-container">
+
+            <div class="gift-build-heading">
+
+                <span class="gift-build-label">
+                    PERSONAL GIFTING
+                </span>
+
+                <h2>
+                    Build a gift they'll
+                    <em>remember.</em>
+                </h2>
+
+                <p>
+                    Create something thoughtful from the first
+                    piece to the moment it arrives at their door.
+                </p>
+
+            </div>
+
+
+            <div class="gift-build-steps">
+
+                <!-- Step 01 -->
+
+                <div class="gift-build-step">
+
+                    <span class="gift-build-number">
+                        01
+                    </span>
+
+                    <div class="gift-build-icon">
+                        <i class="fa-solid fa-box-open"></i>
+                    </div>
+
+                    <h3>
+                        Choose a Set
+                    </h3>
+
+                    <p>
+                        Start with a thoughtfully curated collection
+                        made for the way they cook.
+                    </p>
+
+                </div>
+
+
+                <!-- Step 02 -->
+
+                <div class="gift-build-step">
+
+                    <span class="gift-build-number">
+                        02
+                    </span>
+
+                    <div class="gift-build-icon">
+                        <i class="fa-solid fa-pen"></i>
+                    </div>
+
+                    <h3>
+                        Add a Personal Touch
+                    </h3>
+
+                    <p>
+                        Make it personal with a thoughtful note
+                        to make the gift feel truly theirs.
+                    </p>
+
+                </div>
+
+
+                <!-- Step 03 -->
+
+                <div class="gift-build-step">
+
+                    <span class="gift-build-number">
+                        03
+                    </span>
+
+                    <div class="gift-build-icon">
+                        <i class="fa-solid fa-gift"></i>
+                    </div>
+
+                    <h3>
+                        Send It Their Way
+                    </h3>
+
+                    <p>
+                        We'll take care of the details so your
+                        gift arrives beautifully presented.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="gift-build-business">
+
+                <div class="gift-business-content">
+
+                    <span>
+                        FOR TEAMS &amp; CLIENTS
+                    </span>
+
+                    <h3>
+                        Thoughtful gifting,
+                        made for business.
+                    </h3>
+
+                    <p>
+                        Looking for gifts for your team, clients,
+                        or special events? Talk to us about
+                        corporate gifting.
+                    </p>
+
+                </div>
+
+                <a href="contact.html" class="gift-business-button">
+                    Corporate Gifting
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     GIFT SETS — FINAL CTA
+     ========================================================= -->
+
+    <section class="gift-final-cta">
+
+        <div class="gift-final-overlay"></div>
+
+        <div class="gift-final-content">
+
+            <span class="gift-final-label">
+                A GIFT WORTH GIVING
+            </span>
+
+            <h2>
+                Give something
+                <em>they'll actually use.</em>
+            </h2>
+
+            <p>
+                Beautifully chosen kitchen essentials, ready to
+                make someone's everyday a little more special.
+            </p>
+
+            <a href="products.html" class="gift-final-button">
+
+                Explore Gift Sets
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     FOOTER
+========================= -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <!-- Footer Main -->
+            <div class="footer-main">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo.png" alt="ClayNest">
+                    </a>
+
+                    <p class="footer-description">
+                        Thoughtfully crafted cookware and kitchen essentials
+                        designed to bring beauty and function to everyday cooking.
+                    </p>
+
+                    <div class="footer-social">
+
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" aria-label="Pinterest">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </a>
+
+                        <a href="#" aria-label="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Quick Links -->
+                <div class="footer-column">
+
+                    <h3>Explore</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Products</a>
+                        </li>
+
+                        <li>
+                            <a href="materials.html">Materials Guide</a>
+                        </li>
+
+                        <li>
+                            <a href="gift-sets.html">Gift Sets</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Collections -->
+                <div class="footer-column">
+
+                    <h3>Collections</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="products.html">Cookware</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Bakeware</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Storage</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Kitchen Tools</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Dining Sets</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Support -->
+                <div class="footer-column">
+
+                    <h3>Support</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="bulk-orders.html">Bulk Orders</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+
+                        <li>
+                            <a href="login.html">Login</a>
+                        </li>
+
+                        <li>
+                            <a href="register.html">Register</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Contact -->
+                <div class="footer-column footer-contact">
+
+                    <h3>Visit Us</h3>
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span>
+                            24 Kitchen Lane,<br>
+                            Chennai, Tamil Nadu
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <a href="tel:+919876543210">
+                            +91 98765 43210
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-regular fa-envelope"></i>
+
+                        <a href="mailto:hello@claynest.com">
+                            hello@claynest.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 ClayNest. All rights reserved.
+                </p>
+
+                <div class="footer-bottom-links">
+
+                    <a href="#">Privacy Policy</a>
+
+                    <span></span>
+
+                    <a href="#">Terms & Conditions</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Scroll To Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" type="button" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

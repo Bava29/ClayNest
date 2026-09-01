@@ -1,0 +1,1624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ClayNest</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Google Font - Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+     HEADER
+========================= -->
+
+    <header class="site-header" id="siteHeader">
+        <div class="container header-container">
+
+            <!-- Logo -->
+            <a href="index.html" class="site-logo" aria-label="ClayNest Home">
+                <img src="images/logo.png" alt="ClayNest">
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <nav class="main-navigation" id="mainNavigation" aria-label="Main Navigation">
+
+                <ul class="nav-menu">
+
+                    <!-- Home Dropdown -->
+                    <li class="nav-item has-dropdown">
+
+                        <button class="nav-link dropdown-toggle" type="button" aria-expanded="false">
+                            Home
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="index.html">Home 1</a>
+                            </li>
+
+                            <li>
+                                <a href="home-2.html">Home 2</a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+
+
+                    <!-- Products -->
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">Products</a>
+                    </li>
+
+
+                    <!-- Materials -->
+                    <li class="nav-item">
+                        <a href="materials.html" class="nav-link">Materials Guide</a>
+                    </li>
+
+                    <!-- Gift Sets -->
+                    <li class="nav-item">
+                        <a href="gift-sets.html" class="nav-link">Gift Sets</a>
+                    </li>
+
+
+                    <!-- Bulk Orders -->
+                    <li class="nav-item">
+                        <a href="bulk-orders.html" class="nav-link">Bulk Orders</a>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+
+                </ul>
+
+
+                <!-- Mobile / Menu Actions -->
+                <div class="mobile-menu-actions">
+
+                    <!-- Dark Mode -->
+                    <button class="header-action" id="themeToggle" type="button" aria-label="Toggle dark mode">
+
+                        <span class="action-icon">
+                            <i class="fa-solid fa-moon"></i>
+                        </span>
+
+                        <span class="action-text">Dark Mode</span>
+
+                    </button>
+
+
+                    <!-- RTL -->
+                    <button class="header-action" id="rtlToggle" type="button" aria-label="Toggle RTL direction">
+
+                        <span class="action-icon">
+                            <i class="fa-solid fa-right-left"></i>
+                        </span>
+
+                        <span class="action-text">RTL Mode</span>
+
+                    </button>
+
+
+                    <!-- Login -->
+                    <a href="login.html" class="header-login">
+                        <span>Login</span>
+                    </a>
+
+                </div>
+
+            </nav>
+
+
+            <!-- Desktop Actions -->
+            <div class="header-actions">
+
+                <!-- Dark Mode -->
+                <button class="desktop-action" id="desktopThemeToggle" type="button" aria-label="Toggle dark mode">
+
+                    <i class="fa-solid fa-moon"></i>
+
+                </button>
+
+
+                <!-- RTL -->
+                <button class="desktop-action" id="desktopRtlToggle" type="button" aria-label="Toggle RTL direction">
+
+                    <i class="fa-solid fa-right-left"></i>
+
+                </button>
+
+
+                <!-- Login -->
+                <a href="login.html" class="header-login">
+                    <span>Login</span>
+                </a>
+
+            </div>
+
+
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false"
+                aria-controls="mainNavigation">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- =========================
+     HERO SECTION
+========================= -->
+
+    <section class="hero-section">
+
+        <div class="container hero-container">
+
+            <!-- Hero Content -->
+            <div class="hero-content">
+
+                <h1 class="hero-title">
+
+                    <span class="title-bring">
+                        Bring
+                    </span>
+
+                    <span class="title-warmth">
+                        warmth
+                    </span>
+
+                    <span class="title-to">
+                        to your
+                    </span>
+
+                    <span class="title-kitchen">
+                        KITCHEN.
+                    </span>
+
+                </h1>
+
+
+                <p class="hero-description">
+                    Beautifully crafted cookware and kitchen essentials
+                    made for everyday cooking, shared meals, and moments
+                    worth gathering around.
+                </p>
+
+
+                <a href="products.html" class="hero-button">
+                    <span>Explore Products</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <!-- Hero Image -->
+            <div class="hero-image">
+
+                <img src="images/hero-kitchen.jpg" alt="Ceramic cookware and kitchen essentials">
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+         CATEGORY NAVIGATION
+    ========================= -->
+
+        <div class="hero-categories">
+
+            <div class="container category-container">
+
+                <!-- Cookware -->
+                <a href="products.html" class="category-item">
+
+                    <div class="category-icon">
+                        <i class="fa-solid fa-kitchen-set"></i>
+                    </div>
+
+                    <span>Cookware</span>
+
+                    <i class="fa-solid fa-arrow-right category-arrow"></i>
+
+                </a>
+
+
+                <!-- Bakeware -->
+                <a href="products.html" class="category-item">
+
+                    <div class="category-icon">
+                        <i class="fa-solid fa-cookie-bite"></i>
+                    </div>
+
+                    <span>Bakeware</span>
+
+                    <i class="fa-solid fa-arrow-right category-arrow"></i>
+
+                </a>
+
+
+                <!-- Storage -->
+                <a href="products.html" class="category-item">
+
+                    <div class="category-icon">
+                        <i class="fa-solid fa-box"></i>
+                    </div>
+
+                    <span>
+                        Containers
+                    </span>
+
+                    <i class="fa-solid fa-arrow-right category-arrow"></i>
+
+                </a>
+
+
+                <!-- Kitchen Tools -->
+                <a href="products.html" class="category-item">
+
+                    <div class="category-icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+
+                    <span>
+
+                        Kitchen Tools
+                    </span>
+
+                    <i class="fa-solid fa-arrow-right category-arrow"></i>
+
+                </a>
+
+
+                <!-- Dining Sets -->
+                <a href="products.html" class="category-item">
+
+                    <div class="category-icon">
+                        <i class="fa-solid fa-bowl-food"></i>
+                    </div>
+
+                    <span>
+                        Dining Sets
+                    </span>
+
+                    <i class="fa-solid fa-arrow-right category-arrow"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     SECTION 2 - BEST SELLING
+========================= -->
+
+    <section class="best-selling-section">
+
+        <div class="container">
+
+            <!-- Section Heading -->
+            <div class="best-selling-title">
+
+                <span class="section-label">
+                    OUR MOST LOVED
+                </span>
+
+                <h2>
+                    Best Selling
+                    <em>Pieces</em>
+                </h2>
+
+                <p>
+                    Thoughtfully made pieces that bring warmth,
+                    simplicity, and lasting beauty to everyday cooking.
+                </p>
+
+            </div>
+
+
+            <!-- Featured Products Layout -->
+            <div class="best-selling-layout">
+
+
+                <!-- Featured Product -->
+                <article class="featured-product">
+
+                    <div class="featured-product-image">
+
+                        <span class="product-number">
+                            01
+                        </span>
+
+                        <img src="images/product-dutch-oven.jpg" alt="Ceramic Dutch Oven">
+
+                    </div>
+
+                    <div class="featured-product-info">
+
+                        <div>
+                            <span class="product-category">
+                                Cookware
+                            </span>
+
+                            <h3>
+                                Everyday Ceramic
+                                Dutch Oven
+                            </h3>
+                        </div>
+
+                        <div class="featured-product-meta">
+
+                            <span class="product-price">
+                                ₹3,499
+                            </span>
+
+                            <a href="product-details.html">
+                                Explore
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Smaller Products -->
+                <div class="secondary-products">
+
+
+                    <!-- Product 02 -->
+                    <article class="secondary-product">
+
+                        <div class="secondary-product-image">
+
+                            <span class="product-number">
+                                02
+                            </span>
+
+                            <img src="images/product-bakeware.jpg" alt="Ceramic Baking Dish">
+
+                        </div>
+
+                        <div class="secondary-product-info">
+
+                            <div>
+
+                                <span class="product-category">
+                                    Bakeware
+                                </span>
+
+                                <h3>
+                                    Stoneware Baking Dish
+                                </h3>
+
+                            </div>
+
+                            <span class="product-price">
+                                ₹1,899
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 03 -->
+                    <article class="secondary-product">
+
+                        <div class="secondary-product-image">
+
+                            <span class="product-number">
+                                03
+                            </span>
+
+                            <img src="images/product-storage.jpg" alt="Ceramic Storage Collection">
+
+                        </div>
+
+                        <div class="secondary-product-info">
+
+                            <div>
+
+                                <span class="product-category">
+                                    Storage
+                                </span>
+
+                                <h3>
+                                    Pantry Storage Collection
+                                </h3>
+
+                            </div>
+
+                            <span class="product-price">
+                                ₹2,299
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 04 -->
+                    <article class="secondary-product">
+
+                        <div class="secondary-product-image">
+
+                            <span class="product-number">
+                                04
+                            </span>
+
+                            <img src="images/product-dining-set.jpg" alt="Everyday Ceramic Dining Set">
+
+                        </div>
+
+                        <div class="secondary-product-info">
+
+                            <div>
+
+                                <span class="product-category">
+                                    Dining
+                                </span>
+
+                                <h3>
+                                    Everyday Dining Set
+                                </h3>
+
+                            </div>
+
+                            <span class="product-price">
+                                ₹2,799
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- Bottom Link -->
+            <div class="best-selling-footer">
+
+                <a href="products.html" class="all-products-link">
+                    Discover All Products
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     SECTION 3 - CRAFTED FOR EVERYDAY
+========================= -->
+
+    <section class="crafted-section">
+
+        <div class="container">
+
+            <div class="crafted-layout">
+
+                <!-- Image -->
+                <div class="crafted-image">
+
+                    <img src="images/crafted-kitchen.jpg" alt="Handcrafted ceramic cookware in a warm kitchen">
+
+                    <div class="crafted-image-label">
+                        <span>CLAYNEST</span>
+                        <span>Made with intention</span>
+                    </div>
+
+                </div>
+
+
+                <!-- Content -->
+                <div class="crafted-content">
+
+                    <span class="crafted-label">
+                        MADE TO BE LOVED
+                    </span>
+
+                    <h2>
+                        Crafted for
+                        <em>everyday.</em>
+                    </h2>
+
+                    <p class="crafted-description">
+                        Beautiful cookware should feel as good as it looks.
+                        At ClayNest, every piece is thoughtfully designed to
+                        bring warmth, simplicity, and character to your
+                        everyday kitchen.
+                    </p>
+
+
+                    <!-- Highlights -->
+                    <div class="crafted-highlights">
+
+                        <div class="crafted-highlight">
+
+                            <span class="highlight-number">
+                                01
+                            </span>
+
+                            <div>
+                                <h3>
+                                    Thoughtful Design
+                                </h3>
+
+                                <p>
+                                    Simple forms made for effortless
+                                    everyday cooking.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="crafted-highlight">
+
+                            <span class="highlight-number">
+                                02
+                            </span>
+
+                            <div>
+                                <h3>
+                                    Made to Last
+                                </h3>
+
+                                <p>
+                                    Durable ceramic pieces designed
+                                    for years of use.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="crafted-highlight">
+
+                            <span class="highlight-number">
+                                03
+                            </span>
+
+                            <div>
+                                <h3>
+                                    Timeless Beauty
+                                </h3>
+
+                                <p>
+                                    Warm, natural forms that belong
+                                    in every kitchen.
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <a href="about.html" class="crafted-link">
+                        Discover Our Story
+
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     SECTION 4 - MATERIALS
+========================= -->
+
+    <section class="materials-section">
+
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="materials-heading">
+
+                <span class="materials-label">
+                    KNOW YOUR COOKWARE
+                </span>
+
+                <h2>
+                    Choose what feels
+                    <em>right.</em>
+                </h2>
+
+                <p>
+                    Discover the materials behind our collections
+                    and find the perfect fit for the way you cook.
+                </p>
+
+            </div>
+
+
+            <!-- Materials -->
+            <div class="materials-grid">
+
+                <!-- Ceramic -->
+                <a href="materials.html" class="material-card">
+
+                    <div class="material-image">
+
+                        <img src="images/material-ceramic.jpg" alt="Ceramic cookware">
+
+                    </div>
+
+                    <div class="material-content">
+
+                        <span class="material-number">
+                            01
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Ceramic
+                            </h3>
+
+                            <p>
+                                Naturally beautiful with a smooth,
+                                timeless finish.
+                            </p>
+
+                        </div>
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </div>
+
+                </a>
+
+
+                <!-- Stoneware -->
+                <a href="materials.html" class="material-card">
+
+                    <div class="material-image">
+
+                        <img src="images/material-stoneware.jpg" alt="Stoneware cookware">
+
+                    </div>
+
+                    <div class="material-content">
+
+                        <span class="material-number">
+                            02
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Stoneware
+                            </h3>
+
+                            <p>
+                                Sturdy everyday pieces made for
+                                slow, comforting meals.
+                            </p>
+
+                        </div>
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </div>
+
+                </a>
+
+
+                <!-- Terracotta -->
+                <a href="materials.html" class="material-card">
+
+                    <div class="material-image">
+
+                        <img src="images/material-terracotta.jpg" alt="Terracotta cookware">
+
+                    </div>
+
+                    <div class="material-content">
+
+                        <span class="material-number">
+                            03
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Terracotta
+                            </h3>
+
+                            <p>
+                                Earthy warmth and character for
+                                traditional cooking.
+                            </p>
+
+                        </div>
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+
+            <!-- Bottom Link -->
+            <div class="materials-footer">
+
+                <a href="materials.html">
+                    Explore Materials Guide
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     SECTION 6 - CLAYNEST DIFFERENCE
+========================= -->
+
+    <section class="difference-section">
+
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="difference-heading">
+
+                <span class="difference-label">
+                    WHY CLAYNEST
+                </span>
+
+                <h2>
+                    Made for the way
+                    <em>you live.</em>
+                </h2>
+
+                <p>
+                    From slow Sunday lunches to quick weekday dinners,
+                    every ClayNest piece is designed to fit naturally
+                    into everyday life.
+                </p>
+
+            </div>
+
+
+            <!-- Features -->
+            <div class="difference-features">
+
+
+                <!-- Feature 01 -->
+                <div class="difference-feature">
+
+                    <div class="difference-icon">
+                        <i class="fa-solid fa-hand-sparkles"></i>
+                    </div>
+
+                    <span class="difference-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Thoughtfully Crafted
+                    </h3>
+
+                    <p>
+                        Carefully considered shapes, finishes,
+                        and details made for everyday kitchens.
+                    </p>
+
+                </div>
+
+
+                <!-- Feature 02 -->
+                <div class="difference-feature">
+
+                    <div class="difference-icon">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+
+                    <span class="difference-number">
+                        02
+                    </span>
+
+                    <h3>
+                        Naturally Inspired
+                    </h3>
+
+                    <p>
+                        Earthy tones and organic forms inspired
+                        by the beauty of natural materials.
+                    </p>
+
+                </div>
+
+
+                <!-- Feature 03 -->
+                <div class="difference-feature">
+
+                    <div class="difference-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <span class="difference-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Made to Belong
+                    </h3>
+
+                    <p>
+                        Timeless pieces created to become part
+                        of your kitchen for years to come.
+                    </p>
+
+                </div>
+
+
+                <!-- Feature 04 -->
+                <div class="difference-feature">
+
+                    <div class="difference-icon">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+
+                    <span class="difference-number">
+                        04
+                    </span>
+
+                    <h3>
+                        Everyday Practical
+                    </h3>
+
+                    <p>
+                        Beautiful enough to display and practical
+                        enough to reach for every single day.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     SECTION 5 - TESTIMONIALS
+========================= -->
+
+    <section class="reviews-section">
+
+        <div class="container">
+
+            <div class="reviews-header">
+
+                <div>
+                    <span class="reviews-label">
+                        CUSTOMER LOVE
+                    </span>
+
+                    <h2>
+                        Loved by people
+                        <em>like you.</em>
+                    </h2>
+                </div>
+
+                <p>
+                    Real kitchens, real meals, and everyday moments
+                    made a little more beautiful with ClayNest.
+                </p>
+
+            </div>
+
+
+            <!-- Reviews Slider -->
+            <div class="reviews-slider">
+
+                <div class="reviews-track">
+
+
+                    <!-- Review 01 -->
+                    <article class="review-card">
+
+                        <div class="review-person">
+
+                            <img src="images/customer-01.jpg" alt="Ananya Sharma">
+
+                            <div>
+                                <h3>Ananya Sharma</h3>
+                                <span>Verified Customer</span>
+                            </div>
+
+                        </div>
+
+                        <div class="review-stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            “The ceramic cookware is beautiful and
+                            genuinely feels made for everyday use.
+                            My kitchen feels warmer already.”
+                        </p>
+
+                        <span class="review-product">
+                            Everyday Ceramic Dutch Oven
+                        </span>
+
+                    </article>
+
+
+                    <!-- Review 02 -->
+                    <article class="review-card">
+
+                        <div class="review-person">
+
+                            <img src="images/customer-02.jpg" alt="Meera Krishnan">
+
+                            <div>
+                                <h3>Meera Krishnan</h3>
+                                <span>Verified Customer</span>
+                            </div>
+
+                        </div>
+
+                        <div class="review-stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            “I love how simple and elegant everything
+                            looks. The baking dish has become one of
+                            my most-used kitchen pieces.”
+                        </p>
+
+                        <span class="review-product">
+                            Stoneware Baking Dish
+                        </span>
+
+                    </article>
+
+
+                    <!-- Review 03 -->
+                    <article class="review-card">
+
+                        <div class="review-person">
+
+                            <img src="images/customer-03.jpg" alt="Riya Menon">
+
+                            <div>
+                                <h3>Riya Menon</h3>
+                                <span>Verified Customer</span>
+                            </div>
+
+                        </div>
+
+                        <div class="review-stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            “The quality exceeded my expectations.
+                            Everything feels thoughtfully designed,
+                            from the shape to the finish.”
+                        </p>
+
+                        <span class="review-product">
+                            Pantry Storage Collection
+                        </span>
+
+                    </article>
+
+
+                    <!-- Review 04 -->
+                    <article class="review-card">
+
+                        <div class="review-person">
+
+                            <img src="images/customer-04.jpg" alt="Kavya Iyer">
+
+                            <div>
+                                <h3>Kavya Iyer</h3>
+                                <span>Verified Customer</span>
+                            </div>
+
+                        </div>
+
+                        <div class="review-stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            “The dining set is exactly what I wanted.
+                            Warm, minimal and easy to pair with
+                            everything on my table.”
+                        </p>
+
+                        <span class="review-product">
+                            Everyday Dining Set
+                        </span>
+
+                    </article>
+
+
+                    <!-- Review 05 -->
+                    <article class="review-card">
+
+                        <div class="review-person">
+
+                            <img src="images/customer-05.jpg" alt="Nisha Rao">
+
+                            <div>
+                                <h3>Nisha Rao</h3>
+                                <span>Verified Customer</span>
+                            </div>
+
+                        </div>
+
+                        <div class="review-stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            “These pieces are practical without
+                            compromising on beauty. I reach for them
+                            almost every day.”
+                        </p>
+
+                        <span class="review-product">
+                            Ceramic Cookware Collection
+                        </span>
+
+                    </article>
+
+
+                    <!-- Review 06 -->
+                    <article class="review-card">
+
+                        <div class="review-person">
+
+                            <img src="images/customer-06.jpg" alt="Diya Patel">
+
+                            <div>
+                                <h3>Diya Patel</h3>
+                                <span>Verified Customer</span>
+                            </div>
+
+                        </div>
+
+                        <div class="review-stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            “Beautiful pieces, lovely finish and
+                            perfect for slow weekend cooking with
+                            the family.”
+                        </p>
+
+                        <span class="review-product">
+                            Stoneware Collection
+                        </span>
+
+                    </article>
+
+                    <!-- Review 07 -->
+                    <article class="review-card">
+
+                        <div class="review-person">
+
+                            <img src="images/customer-07.jpg" alt="Ishita Nair">
+
+                            <div>
+                                <h3>Ishita Nair</h3>
+                                <span>Verified Customer</span>
+                            </div>
+
+                        </div>
+
+                        <div class="review-stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            “ClayNest has completely changed the way I look at
+                            everyday cookware. The pieces are elegant, sturdy,
+                            and beautiful enough to leave on the table.”
+                        </p>
+
+                        <span class="review-product">
+                            Ceramic Cookware Collection
+                        </span>
+
+                    </article>
+
+
+                    <!-- Review 08 -->
+                    <article class="review-card">
+
+                        <div class="review-person">
+
+                            <img src="images/customer-08.jpg" alt="Aarushi Kapoor">
+
+                            <div>
+                                <h3>Aarushi Kapoor</h3>
+                                <span>Verified Customer</span>
+                            </div>
+
+                        </div>
+
+                        <div class="review-stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            “The quality, finish, and attention to detail are
+                            wonderful. I bought one piece first and ended up
+                            coming back for the whole collection.”
+                        </p>
+
+                        <span class="review-product">
+                            Everyday Dining Set
+                        </span>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+
+            <!-- Slider Controls -->
+            <div class="reviews-controls">
+
+                <button type="button" class="review-prev" aria-label="Previous reviews">
+
+                    <i class="fa-solid fa-arrow-left"></i>
+
+                </button>
+
+                <div class="review-dots">
+
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+                <button type="button" class="review-next" aria-label="Next reviews">
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     SECTION 7 - OUR PROMISE
+========================= -->
+
+    <section class="promise-section">
+
+        <div class="container">
+
+            <div class="promise-content">
+
+                <span class="promise-label">
+                    OUR PROMISE
+                </span>
+
+                <h2>
+                    Beautiful things
+                    should be made to
+                    <em>last.</em>
+                </h2>
+
+                <p>
+                    We believe the things we use every day should bring
+                    more than function. They should bring warmth, character,
+                    and a sense of belonging to the spaces we call home.
+                </p>
+
+            </div>
+
+
+            <!-- Promise Points -->
+            <div class="promise-points">
+
+                <div class="promise-point">
+
+                    <span class="promise-number">
+                        01
+                    </span>
+
+                    <div>
+                        <h3>
+                            Designed with Purpose
+                        </h3>
+
+                        <p>
+                            Every shape and detail has a reason,
+                            balancing beauty with everyday function.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="promise-point">
+
+                    <span class="promise-number">
+                        02
+                    </span>
+
+                    <div>
+                        <h3>
+                            Made for Everyday
+                        </h3>
+
+                        <p>
+                            Pieces created to be used often,
+                            enjoyed fully, and lived with naturally.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="promise-point">
+
+                    <span class="promise-number">
+                        03
+                    </span>
+
+                    <div>
+                        <h3>
+                            Made to Stay
+                        </h3>
+
+                        <p>
+                            Timeless designs that remain beautiful
+                            long after trends have moved on.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     SECTION 8 - FINAL CTA
+========================= -->
+
+    <section class="final-cta-section">
+
+        <div class="final-cta-background">
+
+            <img src="images/cta-kitchen.jpg" alt="Warm ClayNest kitchen and dining setup">
+
+        </div>
+
+
+        <div class="final-cta-overlay"></div>
+
+
+        <div class="container">
+
+            <div class="final-cta-content">
+
+                <span class="final-cta-label">
+                    BRING CLAYNEST HOME
+                </span>
+
+                <h2>
+                    Your kitchen deserves
+                    <em>beautiful things.</em>
+                </h2>
+
+                <p>
+                    Discover timeless cookware and kitchen essentials
+                    thoughtfully made for everyday meals, meaningful
+                    gatherings, and everything in between.
+                </p>
+
+                <div class="final-cta-actions">
+
+                    <a href="products.html" class="final-cta-button">
+                        <span>Shop the Collection</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="about.html" class="final-cta-secondary">
+                        Our Story
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     FOOTER
+========================= -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <!-- Footer Main -->
+            <div class="footer-main">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo.png" alt="ClayNest">
+                    </a>
+
+                    <p class="footer-description">
+                        Thoughtfully crafted cookware and kitchen essentials
+                        designed to bring beauty and function to everyday cooking.
+                    </p>
+
+                    <div class="footer-social">
+
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" aria-label="Pinterest">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </a>
+
+                        <a href="#" aria-label="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Quick Links -->
+                <div class="footer-column">
+
+                    <h3>Explore</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Products</a>
+                        </li>
+
+                        <li>
+                            <a href="materials.html">Materials Guide</a>
+                        </li>
+
+                        <li>
+                            <a href="gift-sets.html">Gift Sets</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Collections -->
+                <div class="footer-column">
+
+                    <h3>Collections</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="products.html">Cookware</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Bakeware</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Storage</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Kitchen Tools</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Dining Sets</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Support -->
+                <div class="footer-column">
+
+                    <h3>Support</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="bulk-orders.html">Bulk Orders</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+
+                        <li>
+                            <a href="login.html">Login</a>
+                        </li>
+
+                        <li>
+                            <a href="register.html">Register</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Contact -->
+                <div class="footer-column footer-contact">
+
+                    <h3>Visit Us</h3>
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span>
+                            24 Kitchen Lane,<br>
+                            Chennai, Tamil Nadu
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <a href="tel:+919876543210">
+                            +91 98765 43210
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-regular fa-envelope"></i>
+
+                        <a href="mailto:hello@claynest.com">
+                            hello@claynest.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 ClayNest. All rights reserved.
+                </p>
+
+                <div class="footer-bottom-links">
+
+                    <a href="#">Privacy Policy</a>
+
+                    <span></span>
+
+                    <a href="#">Terms & Conditions</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Scroll To Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" type="button" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

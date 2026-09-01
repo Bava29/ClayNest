@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ClayNest</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Google Font - Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+     HEADER
+========================= -->
+
+    <header class="site-header" id="siteHeader">
+        <div class="container header-container">
+
+            <!-- Logo -->
+            <a href="index.html" class="site-logo" aria-label="ClayNest Home">
+                <img src="images/logo.png" alt="ClayNest">
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <nav class="main-navigation" id="mainNavigation" aria-label="Main Navigation">
+
+                <ul class="nav-menu">
+
+                    <!-- Home Dropdown -->
+                    <li class="nav-item has-dropdown">
+
+                        <button class="nav-link dropdown-toggle" type="button" aria-expanded="false">
+                            Home
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="index.html">Home 1</a>
+                            </li>
+
+                            <li>
+                                <a href="home-2.html">Home 2</a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+
+
+                    <!-- Products -->
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">Products</a>
+                    </li>
+
+
+                    <!-- Materials -->
+                    <li class="nav-item">
+                        <a href="materials.html" class="nav-link">Materials Guide</a>
+                    </li>
+
+                    <!-- Gift Sets -->
+                    <li class="nav-item">
+                        <a href="gift-sets.html" class="nav-link">Gift Sets</a>
+                    </li>
+
+
+                    <!-- Bulk Orders -->
+                    <li class="nav-item">
+                        <a href="bulk-orders.html" class="nav-link">Bulk Orders</a>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+
+                </ul>
+
+
+                <!-- Mobile / Menu Actions -->
+                <div class="mobile-menu-actions">
+
+                    <!-- Dark Mode -->
+                    <button class="header-action" id="themeToggle" type="button" aria-label="Toggle dark mode">
+
+                        <span class="action-icon">
+                            <i class="fa-solid fa-moon"></i>
+                        </span>
+
+                        <span class="action-text">Dark Mode</span>
+
+                    </button>
+
+
+                    <!-- RTL -->
+                    <button class="header-action" id="rtlToggle" type="button" aria-label="Toggle RTL direction">
+
+                        <span class="action-icon">
+                            <i class="fa-solid fa-right-left"></i>
+                        </span>
+
+                        <span class="action-text">RTL Mode</span>
+
+                    </button>
+
+
+                    <!-- Login -->
+                    <a href="login.html" class="header-login">
+                        <span>Login</span>
+                    </a>
+
+                </div>
+
+            </nav>
+
+
+            <!-- Desktop Actions -->
+            <div class="header-actions">
+
+                <!-- Dark Mode -->
+                <button class="desktop-action" id="desktopThemeToggle" type="button" aria-label="Toggle dark mode">
+
+                    <i class="fa-solid fa-moon"></i>
+
+                </button>
+
+
+                <!-- RTL -->
+                <button class="desktop-action" id="desktopRtlToggle" type="button" aria-label="Toggle RTL direction">
+
+                    <i class="fa-solid fa-right-left"></i>
+
+                </button>
+
+
+                <!-- Login -->
+                <a href="login.html" class="header-login">
+                    <span>Login</span>
+                </a>
+
+            </div>
+
+
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false"
+                aria-controls="mainNavigation">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </div>
+    </header>
+
+
+
+    <!-- =========================================================
+     HOME 2 — PREMIUM HERO
+     ========================================================= -->
+
+    <section class="home2-hero">
+
+        <div class="home2-hero-image">
+
+            <img src="images/home2-hero.jpg" alt="Premium cookware and kitchen setting">
+
+        </div>
+
+
+        <div class="home2-hero-content">
+
+            <span class="home2-hero-label">
+                THE ART OF EVERYDAY COOKING
+            </span>
+
+            <h1>
+                A Better Way
+                <em>to Cook.</em>
+            </h1>
+
+            <p>
+                Thoughtfully designed cookware and kitchen
+                essentials made for the meals, moments,
+                and people that matter.
+            </p>
+
+            <div class="home2-hero-actions">
+
+                <a href="products.html" class="home2-hero-btn primary">
+                    Shop Collection
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="about.html" class="home2-hero-btn secondary">
+                    Our Story
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     HOME 2 — PHILOSOPHY SECTION
+     ========================================================= -->
+
+    <section class="home2-philosophy">
+
+        <div class="philosophy-container">
+
+            <div class="philosophy-heading">
+
+                <span class="philosophy-label">
+                    THE CLAYNEST PHILOSOPHY
+                </span>
+
+                <h2>
+                    Beautiful things belong
+                    <em>in everyday life.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="philosophy-content">
+
+                <p class="philosophy-intro">
+                    We believe the kitchen should feel as good
+                    as the food that comes from it. Every piece
+                    is chosen with a balance of function, material,
+                    and quiet beauty.
+                </p>
+
+
+                <div class="philosophy-points">
+
+                    <div class="philosophy-point">
+
+                        <span class="philosophy-number">
+                            01
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Thoughtful Materials
+                            </h3>
+
+                            <p>
+                                Carefully selected materials that
+                                perform beautifully in everyday use.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="philosophy-point">
+
+                        <span class="philosophy-number">
+                            02
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Quiet Design
+                            </h3>
+
+                            <p>
+                                Simple forms created to complement
+                                your kitchen rather than compete with it.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="philosophy-point">
+
+                        <span class="philosophy-number">
+                            03
+                        </span>
+
+                        <div>
+
+                            <h3>
+                                Everyday Purpose
+                            </h3>
+
+                            <p>
+                                Made to be used, loved, and reached
+                                for again and again.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     HOME 2 — KITCHEN REIMAGINED
+     ========================================================= -->
+
+    <section class="home2-kitchen">
+
+        <div class="kitchen-reimagined-container">
+
+            <!-- Visual Area -->
+
+            <div class="kitchen-visual">
+
+                <div class="kitchen-main-image">
+
+                    <img src="images/home2-kitchen-main.jpg" alt="Elegant kitchen with ClayNest cookware">
+
+                </div>
+
+
+                <div class="kitchen-small-image">
+
+                    <img src="images/home2-kitchen-detail.jpg" alt="Close-up of ceramic cookware">
+
+                </div>
+
+            </div>
+
+
+            <!-- Content -->
+
+            <div class="kitchen-reimagined-content">
+
+                <span class="kitchen-label">
+                    THE KITCHEN, REIMAGINED
+                </span>
+
+                <h2>
+                    From the first pour
+                    <em>to the final plate.</em>
+                </h2>
+
+                <p>
+                    The best kitchen pieces become part of your
+                    everyday rhythm. A pan reaching for breakfast,
+                    a serving bowl placed at the centre of the table,
+                    a favourite tool used without a second thought.
+                </p>
+
+                <p>
+                    ClayNest brings together considered materials
+                    and timeless forms for kitchens that are made
+                    to be lived in.
+                </p>
+
+                <a href="about.html" class="kitchen-story-link">
+
+                    Discover Our Story
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     HOME 2 — COLLECTION CHAPTERS
+     ========================================================= -->
+
+    <section class="home2-chapters">
+
+        <div class="chapters-container">
+
+            <div class="chapters-header">
+
+                <span class="chapters-label">
+                    THE COLLECTION
+                </span>
+
+                <h2>
+                    Three ways to shape
+                    <em>your kitchen.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="chapters-list">
+
+                <!-- Chapter 01 -->
+
+                <a href="products.html" class="chapter-item">
+
+                    <div class="chapter-number">
+                        01
+                    </div>
+
+                    <div class="chapter-image">
+
+                        <img src="images/chapter-prepare.jpg" alt="Kitchen tools and preparation essentials">
+
+                    </div>
+
+                    <div class="chapter-content">
+
+                        <h3>
+                            Prepare
+                        </h3>
+
+                        <p>
+                            Thoughtful tools and everyday essentials
+                            that make preparation feel effortless.
+                        </p>
+
+                        <span class="chapter-link">
+                            Explore
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- Chapter 02 -->
+
+                <a href="products.html" class="chapter-item">
+
+                    <div class="chapter-number">
+                        02
+                    </div>
+
+                    <div class="chapter-image">
+
+                        <img src="images/chapter-cook.jpg" alt="Premium cookware in a kitchen">
+
+                    </div>
+
+                    <div class="chapter-content">
+
+                        <h3>
+                            Cook
+                        </h3>
+
+                        <p>
+                            Ceramic, cast iron and stainless steel
+                            pieces made for every kind of cooking.
+                        </p>
+
+                        <span class="chapter-link">
+                            Explore
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- Chapter 03 -->
+
+                <a href="products.html" class="chapter-item">
+
+                    <div class="chapter-number">
+                        03
+                    </div>
+
+                    <div class="chapter-image">
+
+                        <img src="images/chapter-gather.jpg" alt="Beautiful dining table prepared for a meal">
+
+                    </div>
+
+                    <div class="chapter-content">
+
+                        <h3>
+                            Gather
+                        </h3>
+
+                        <p>
+                            Dining pieces created for meals worth
+                            slowing down and sharing.
+                        </p>
+
+                        <span class="chapter-link">
+                            Explore
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     HOME 2 — THE ART OF THE TABLE
+     ========================================================= -->
+
+    <section class="home2-table">
+
+        <div class="table-image">
+
+            <img src="images/home2-dining.jpg" alt="Elegant dining table with ClayNest tableware">
+
+        </div>
+
+
+        <div class="table-content">
+
+            <span class="table-label">
+                THE ART OF THE TABLE
+            </span>
+
+            <h2>
+                Make room for
+                <em>good things.</em>
+            </h2>
+
+            <p>
+                Beautiful meals deserve a setting that feels
+                just as considered. Discover dining pieces
+                designed for everyday gatherings and occasions
+                worth remembering.
+            </p>
+
+            <a href="products.html" class="table-button">
+                Explore Dining
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     HOME 2 — GIFTS WITH MEANING
+     ========================================================= -->
+
+    <section class="home2-gifts">
+
+        <div class="gifts-container">
+
+            <div class="gifts-heading">
+
+                <span class="gifts-label">
+                    GIFTING
+                </span>
+
+                <h2>
+                    For kitchens worth
+                    <em>celebrating.</em>
+                </h2>
+
+                <p>
+                    Thoughtful kitchen pieces, beautifully chosen
+                    for new beginnings, special occasions, and
+                    the people who make every gathering memorable.
+                </p>
+
+            </div>
+
+
+            <div class="gifts-showcase">
+
+                <a href="gift-sets.html" class="gift-feature">
+
+                    <img src="images/gift-set-main.jpg" alt="Premium ClayNest kitchen gift set">
+
+                    <div class="gift-feature-content">
+
+                        <span>
+                            SIGNATURE COLLECTION
+                        </span>
+
+                        <h3>
+                            The Kitchen Gift Set
+                        </h3>
+
+                        <div class="gift-feature-link">
+                            Explore Gift Sets
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                    </div>
+
+                </a>
+
+
+                <div class="gift-side">
+
+                    <a href="gift-sets.html" class="gift-side-item">
+
+                        <div class="gift-side-image">
+
+                            <img src="images/gift-housewarming.jpg" alt="Housewarming kitchen gift">
+
+                        </div>
+
+                        <div class="gift-side-content">
+
+                            <small>
+                                01
+                            </small>
+
+                            <h3>
+                                Housewarming
+                            </h3>
+
+                            <span>
+                                For new beginnings
+                            </span>
+
+                        </div>
+
+                    </a>
+
+
+                    <a href="gift-sets.html" class="gift-side-item">
+
+                        <div class="gift-side-image">
+
+                            <img src="images/gift-celebration.jpg" alt="Kitchen gift for celebrations">
+
+                        </div>
+
+                        <div class="gift-side-content">
+
+                            <small>
+                                02
+                            </small>
+
+                            <h3>
+                                Celebrations
+                            </h3>
+
+                            <span>
+                                For moments worth remembering
+                            </span>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+     HOME 2 — FINAL CTA
+     ========================================================= -->
+
+    <section class="home2-final-cta">
+
+        <div class="final-cta-overlay"></div>
+
+        <div class="final-cta-content">
+
+            <span class="final-cta-label">
+                BRING SOMETHING GOOD HOME
+            </span>
+
+            <h2>
+                Come home to the
+                <em>kitchen.</em>
+            </h2>
+
+            <p>
+                Thoughtful pieces for cooking, gathering,
+                and making everyday moments feel a little
+                more special.
+            </p>
+
+            <a href="products.html" class="final-cta-button">
+
+                Shop ClayNest
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     FOOTER
+========================= -->
+
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <!-- Footer Main -->
+            <div class="footer-main">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/logo.png" alt="ClayNest">
+                    </a>
+
+                    <p class="footer-description">
+                        Thoughtfully crafted cookware and kitchen essentials
+                        designed to bring beauty and function to everyday cooking.
+                    </p>
+
+                    <div class="footer-social">
+
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" aria-label="Pinterest">
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </a>
+
+                        <a href="#" aria-label="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Quick Links -->
+                <div class="footer-column">
+
+                    <h3>Explore</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Products</a>
+                        </li>
+
+                        <li>
+                            <a href="materials.html">Materials Guide</a>
+                        </li>
+
+                        <li>
+                            <a href="gift-sets.html">Gift Sets</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Collections -->
+                <div class="footer-column">
+
+                    <h3>Collections</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="products.html">Cookware</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Bakeware</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Storage</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Kitchen Tools</a>
+                        </li>
+
+                        <li>
+                            <a href="products.html">Dining Sets</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Support -->
+                <div class="footer-column">
+
+                    <h3>Support</h3>
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="bulk-orders.html">Bulk Orders</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+
+                        <li>
+                            <a href="login.html">Login</a>
+                        </li>
+
+                        <li>
+                            <a href="register.html">Register</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Contact -->
+                <div class="footer-column footer-contact">
+
+                    <h3>Visit Us</h3>
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span>
+                            24 Kitchen Lane,<br>
+                            Chennai, Tamil Nadu
+                        </span>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <a href="tel:+919876543210">
+                            +91 98765 43210
+                        </a>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <i class="fa-regular fa-envelope"></i>
+
+                        <a href="mailto:hello@claynest.com">
+                            hello@claynest.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 ClayNest. All rights reserved.
+                </p>
+
+                <div class="footer-bottom-links">
+
+                    <a href="#">Privacy Policy</a>
+
+                    <span></span>
+
+                    <a href="#">Terms & Conditions</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Scroll To Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" type="button" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
