@@ -50847,3 +50847,135 @@ html[dir="rtl"] .philosophy-detail-item+.philosophy-detail-item {
     }
 
 }
+
+/* =========================================================
+   INNER-PAGE HERO SUPPORTING COPY
+   ========================================================= */
+.page-hero-container {
+    flex-direction: column;
+}
+
+.page-hero-description {
+    max-width: 620px;
+    margin: 16px 0 0;
+
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.65;
+}
+
+@media (max-width: 767px) {
+    .page-hero-description {
+        max-width: 88%;
+        margin-top: 12px;
+        font-size: 14px;
+        line-height: 1.55;
+    }
+}
+
+/* A slightly deeper overlay keeps inner-page hero copy crisp over photography. */
+.about-banner .page-hero-overlay,
+.products-banner .page-hero-overlay,
+.materials-banner .page-hero-overlay,
+.gift-banner .page-hero-overlay,
+.bulk-order-banner .page-hero-overlay,
+.contact-banner .page-hero-overlay {
+    background: linear-gradient(120deg, rgba(30, 27, 25, 0.72), rgba(30, 27, 25, 0.62)) !important;
+}
+
+/* Home 1 — keep the product sequence readable over each product image. */
+html:not(.dark-mode) .best-selling-section .featured-product .product-number,
+html:not(.dark-mode) .best-selling-section .secondary-product:nth-child(1) .product-number,
+html:not(.dark-mode) .best-selling-section .secondary-product:nth-child(2) .product-number,
+html:not(.dark-mode) .best-selling-section .secondary-product:nth-child(3) .product-number {
+    padding: 4px 7px;
+    color: #1e1b19;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 10px rgba(30, 27, 25, 0.18);
+}
+
+html.dark-mode .best-selling-section .product-number {
+    padding: 4px 7px;
+    color: #1e1b19;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 10px rgba(30, 27, 25, 0.18);
+}
+
+/* Keep the Home menu connected to its trigger so Home 2 is easy to reach. */
+@media (min-width: 992px) {
+    .dropdown-menu {
+        top: 100%;
+        z-index: 1100;
+    }
+
+    .has-dropdown:focus-within .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translate(-50%, 0);
+    }
+
+    .has-dropdown:focus-within .dropdown-toggle i {
+        transform: rotate(180deg);
+    }
+}
+
+/* Home 2 — centre the Art of the Table card over its image. */
+@media (min-width: 768px) {
+    .home2-table .table-content {
+        position: absolute !important;
+        left: 50% !important;
+        top: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        text-align: center;
+    }
+}
+
+/* About — preserve the heading's italic line and type treatment in dark mode. */
+html.dark-mode .about-choosing .choosing-heading h2 em {
+    display: block !important;
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* About — keep the final CTA heading layout the same in both themes. */
+html.dark-mode .about-final-cta .about-cta-content h2 em {
+    display: block !important;
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Materials Guide — let the featured recipe fill the recipe row in dark mode. */
+html.dark-mode .materials-recipes .recipe-feature {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    border-radius: 24px !important;
+    overflow: hidden !important;
+}
+
+html.dark-mode .materials-recipes .recipe-feature-content {
+    flex: 1 1 auto;
+    border-radius: 0 0 24px 24px;
+}
+
+/* Gift Sets — retain a high-contrast CTA button while hovered in dark mode. */
+html.dark-mode .gift-final-cta .gift-final-button:hover {
+    color: #ffffff !important;
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    opacity: 1;
+}
+
+html.dark-mode .gift-final-cta .gift-final-button:hover i {
+    color: #ffffff !important;
+}
+
+/* Bulk Orders — make the native date-picker icon readable on the dark form field. */
+html.dark-mode #bulk-date::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    opacity: 0.9;
+    cursor: pointer;
+}
