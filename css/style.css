@@ -46058,7 +46058,7 @@ html.dark-mode .about-choosing .choosing-overlay {
 
 /* Label */
 html.dark-mode .about-choosing .choosing-heading>span {
-    color: #FFFFFF !important;
+    color: rgba(255, 255, 255, 0.82) !important;
     opacity: 1 !important;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) !important;
 }
@@ -46072,7 +46072,7 @@ html.dark-mode .about-choosing .choosing-heading h2 {
 
 /* Italic heading */
 html.dark-mode .about-choosing .choosing-heading h2 em {
-    color: #D87860 !important;
+    color: #F4EEE6 !important;
     opacity: 1 !important;
     text-shadow: 0 3px 10px rgba(0, 0, 0, 0.65) !important;
 }
@@ -46093,7 +46093,7 @@ html.dark-mode .about-final-cta::before {
 
 /* CTA label */
 html.dark-mode .about-cta-content .about-cta-label {
-    color: #FFFFFF !important;
+    color: rgba(255, 255, 255, 0.82) !important;
     opacity: 1 !important;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) !important;
 }
@@ -46107,28 +46107,28 @@ html.dark-mode .about-cta-content h2 {
 
 /* CTA italic text */
 html.dark-mode .about-cta-content h2 em {
-    color: #D87860 !important;
+    color: #F4EEE6 !important;
     opacity: 1 !important;
     text-shadow: 0 3px 10px rgba(0, 0, 0, 0.65) !important;
 }
 
 /* CTA description */
 html.dark-mode .about-cta-content p {
-    color: #FFFFFF !important;
+    color: rgba(255, 255, 255, 0.88) !important;
     opacity: 1 !important;
     text-shadow: 0 2px 7px rgba(0, 0, 0, 0.5) !important;
 }
 
 /* CTA button */
 html.dark-mode .about-cta-content .about-cta-button {
-    color: #FFFFFF !important;
-    background: #B65F4A !important;
-    border-color: #B65F4A !important;
+    color: #B65F4A !important;
+    background: #FFFFFF !important;
+    border-color: #FFFFFF !important;
 }
 
 /* CTA button arrow */
 html.dark-mode .about-cta-content .about-cta-button i {
-    color: #FFFFFF !important;
+    color: #B65F4A !important;
 }
 
 
