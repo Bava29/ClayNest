@@ -2013,7 +2013,9 @@ html[dir="rtl"] .footer-links a:hover {
     display: block;
 
     object-fit: contain;
-    object-position: center center;
+    object-position: left center;
+    transform: translateX(-120px);
+
 }
 
 .hero-categories {
@@ -50979,3 +50981,4 @@ html.dark-mode #bulk-date::-webkit-calendar-picker-indicator {
     opacity: 0.9;
     cursor: pointer;
 }
+
