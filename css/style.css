@@ -2018,6 +2018,18 @@ html[dir="rtl"] .footer-links a:hover {
 
 }
 
+/* Mobile - Move image to right */
+@media (max-width: 767px) {
+    .hero-image {
+        justify-content: flex-end;
+    }
+
+    .hero-image img {
+        object-position: right center;
+        transform: translateX(10px);
+    }
+}
+
 .hero-categories {
     width: 100%;
 
